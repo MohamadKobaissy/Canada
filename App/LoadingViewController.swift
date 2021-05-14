@@ -139,7 +139,16 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
     
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        let javascriptStyle = "var css = '*{-webkit-touch-callout:none;-webkit-user-select:none}'; var head = document.head || document.getElementsByTagName('head')[0]; var style = document.createElement('style'); style.type = 'text/css'; style.appendChild(document.createTextNode(css)); head.appendChild(style);"
+        let javascriptStyle = """
+        var css = '*{-webkit-touch-callout: none; -webkit-user-select: none;}';
+        var inputCss = 'input, textarea {-webkit-touch-callout: default; -webkit-user-select: text;}';
+        var head = document.head || document.getElementsByTagName('head')[0];
+        var style = document.createElement('style');
+        style.type = 'text/css';
+        style.appendChild(document.createTextNode(css));
+        style.appendChild(document.createTextNode(inputCss));
+        head.appendChild(style);
+        """
         webView.evaluateJavaScript(javascriptStyle, completionHandler: nil)
         
         self.webView.evaluateJavaScript("document.readyState", completionHandler: { (complete, error) in
