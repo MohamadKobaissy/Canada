@@ -138,7 +138,7 @@
 		2F4978AD24A69CE700DCADD4 /* CanadaHome_LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CanadaHome_LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F7CC25325782C3300FF3772 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		2F8FE38025734FDC00889D91 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		2F95D4F6255C4050007CAD4E /* Al Madina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Al Madina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F95D4F6255C4050007CAD4E /* Canada Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canada Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F95D4F7255C4051007CAD4E /* CanadaHome_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CanadaHome_Info.plist; sourceTree = "<group>"; };
 		2FB6AC352302BE0B006550EC /* Myriad Pro Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad Pro Semibold.ttf"; sourceTree = "<group>"; };
 		2FB6AC4E2302BE0C006550EC /* Myriad Pro Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad Pro Regular.ttf"; sourceTree = "<group>"; };
@@ -227,7 +227,7 @@
 				2274E0301FD16E6C009CB04D /* Supporting Files */,
 				058AA031C71B6783E060CCF8 /* Pods */,
 				F40CBF5DC82089677CADA0B8 /* Frameworks */,
-				2F95D4F6255C4050007CAD4E /* Al Madina.app */,
+				2F95D4F6255C4050007CAD4E /* Canada Home.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -343,7 +343,7 @@
 			);
 			name = CanadaHome;
 			productName = UNDP;
-			productReference = 2F95D4F6255C4050007CAD4E /* Al Madina.app */;
+			productReference = 2F95D4F6255C4050007CAD4E /* Canada Home.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -760,7 +760,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.canada.home;
-				PRODUCT_NAME = "Al Madina";
+				PRODUCT_NAME = "Canada Home";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/IDS-Bridging-Header.h";
@@ -789,7 +789,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.canada.home;
-				PRODUCT_NAME = "Al Madina";
+				PRODUCT_NAME = "Canada Home";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/IDS-Bridging-Header.h";
