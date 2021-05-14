@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  UNDP
+
+  Created by IDS Mac on 12/11/17.
+  Copyright © 2017 IDS Mac. All rights reserved.
+*/
+
+
+// home page menu
+"News" = "دەنگوباس";
+"Stories" = "چيرۆك";
+"Publications" = "بڵاوكراوە";
+"Media" = "ميديا";
+"Infographics" = "ينفۆگراپهيكس";
+"DataVisualization" = "ى داتا";
+
+

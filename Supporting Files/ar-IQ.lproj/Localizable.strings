@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  UNDP
+
+  Created by IDS Mac on 12/11/17.
+  Copyright © 2017 IDS Mac. All rights reserved.
+*/
+
+"News" = "هه‌واڵ";
+"Stories" = "چيرۆك";
+"Publications" = "بڵاوكراوە";
+"Media" = "پیشانگه‌";
+"Infographics" = "هێڵكارى ‌زانیاریه‌كان";
+"DataVisualization" = "هاوكارى ئێمه‌";
+
+"Update" = "نوێكردنه‌وه‌";
+"NewVersion" = "وه‌شانى نوێ بەردەستە، تكايە نوێ بكەوە";
+"UpdateAvailable" = "وه‌شانى نوێ به‌رده‌سته‌";
+"Cancel" = "هەڵوه‌شاندنه‌وه‌";
+"NoData" = "زانیارى به‌رده‌ست نیه‌";
+"connectionProblem" = "گرفت له‌ پەيوەندى هه‌یه‌";
+"Retry" = "دووبارە هەوڵدانەوە";
+
+"All" = "هەموو";
+
+"Later" ="ئەم بژاردەيە بەردەست دەبێت له قۆناغێكى تر!";
+
+"Ok" =  "په‌سه‌ندكردن";
+ 
+"Search" =  "گەڕان";
+
+"Video" =  "ڤیدیۆ";
+"Photos" =  "وێنە";
+
+"offices" =  "نوسینگه‌ سه‌ره‌كییه‌كان";
+"support" =  "ته‌وه‌ره‌كان";
+"donar" =  "به‌خشین";
+
+"bar" =  "هێلكارى ‌ ستوو‌نه‌كان";
+"line" =  "هێلكارى هێلى شه‌پۆلدار";

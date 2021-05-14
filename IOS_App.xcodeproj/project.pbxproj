@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7CC26D25782C3300FF3772 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7CC25325782C3300FF3772 /* NotificationManager.swift */; };
+		2F8FE3A925734FDD00889D91 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8FE38025734FDC00889D91 /* NetworkManager.swift */; };
+		2F95D4D6255C4050007CAD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243ED5E1FD15DDF00FDECAF /* AppDelegate.swift */; };
+		2F95D4D7255C4050007CAD4E /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EF05D20847EFF008F6272 /* DefaultViewController.swift */; };
+		2F95D4D8255C4050007CAD4E /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225AB9C01FDE997100175940 /* Localizer.swift */; };
+		2F95D4DB255C4050007CAD4E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231E0F0205F9F870023F72C /* Constants.swift */; };
+		2F95D4DC255C4050007CAD4E /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228738012004EB70000AA626 /* LoadingViewController.swift */; };
+		2F95D4DF255C4050007CAD4E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9823F3FE21FB447C006233A4 /* AdSupport.framework */; };
+		2F95D4E3255C4050007CAD4E /* Myriad Pro Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FB6AC352302BE0B006550EC /* Myriad Pro Semibold.ttf */; };
+		2F95D4E5255C4050007CAD4E /* DroidKufiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22CD44872087668700765728 /* DroidKufiBold.ttf */; };
+		2F95D4E8255C4050007CAD4E /* DroidKufiRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22CD44882087668700765728 /* DroidKufiRegular.ttf */; };
+		2F95D4E9255C4050007CAD4E /* CanadaHome_LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4978AD24A69CE700DCADD4 /* CanadaHome_LaunchScreen.storyboard */; };
+		2F95D4EC255C4050007CAD4E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225AB9BC1FDE7A4C00175940 /* Localizable.strings */; };
+		2F95D4ED255C4050007CAD4E /* Myriad Pro Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FB6AC4E2302BE0C006550EC /* Myriad Pro Regular.ttf */; };
+		2F95D4EF255C4050007CAD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2243ED621FD15DDF00FDECAF /* Main.storyboard */; };
+		2F95D4F0255C4050007CAD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC87FB2225107FC00D6BC7D /* Assets.xcassets */; };
+		2FF5C41A264E815000CFBEF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FF5C419264E815000CFBEF8 /* GoogleService-Info.plist */; };
+		6F4757B32547C821BA7EE897 /* Pods_CanadaHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D215481807CDA2DCBA6E7DD9 /* Pods_CanadaHome.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F44B8B42576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AB6132963AD0C3B58A85E9E3F5FC374;
+			remoteInfo = Alamofire;
+		};
+		2F44B8B62576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 642EB3AF654C141E266404C8104F5136;
+			remoteInfo = FirebaseCore;
+		};
+		2F44B8B82576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7EE2ECEA5FB054EE3970D00EB531F00;
+			remoteInfo = FirebaseCoreDiagnostics;
+		};
+		2F44B8BA2576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0408A45AE96639CD58619D7ADD6B3660;
+			remoteInfo = FirebaseCrashlytics;
+		};
+		2F44B8BC2576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7D61F406528B89259C5FD498F8D4EE2C;
+			remoteInfo = FirebaseInstallations;
+		};
+		2F44B8BE2576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E141232B7215186D9AF61A000F6D6BF;
+			remoteInfo = FirebaseInstanceID;
+		};
+		2F44B8C02576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 79D83649C1FD3E1BA5E90F552655D1BA;
+			remoteInfo = FirebaseMessaging;
+		};
+		2F44B8C22576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6C1C895455F55E5238ED403EE06BDC24;
+			remoteInfo = GoogleDataTransport;
+		};
+		2F44B8C42576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE2E217F976C5B6C14C5598F8C3D0742;
+			remoteInfo = GoogleUtilities;
+		};
+		2F44B8CC2576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D110D4C87097E570D95325399320D090;
+			remoteInfo = nanopb;
+		};
+		2F44B8CE2576DDC600A7E9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5333E21F0D111BB6E6E804803F200122;
+			remoteInfo = PromisesObjC;
+		};
+		2FF5C40E264E802200CFBEF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9FF8B9BDEDD7BFA1924B831AFA08039C;
+			remoteInfo = "Pods-CanadaHome";
+		};
+		2FF5C4AE264E906100CFBEF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E28748220FE9B763AC65135AB48541FB;
+			remoteInfo = "Toast-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20C3D544277A21FB5BF6F0AF /* Pods-Al Watan SA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al Watan SA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Al Watan SA/Pods-Al Watan SA.debug.xcconfig"; sourceTree = "<group>"; };
+		2231E0F0205F9F870023F72C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2243ED5E1FD15DDF00FDECAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2243ED631FD15DDF00FDECAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		224EF05D20847EFF008F6272 /* DefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
+		225AB9BB1FDE7A4C00175940 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		225AB9BD1FDE7A5200175940 /* ar-LB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-LB"; path = "ar-LB.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		225AB9C01FDE997100175940 /* Localizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		2274E0311FD16E8B009CB04D /* IDS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDS-Bridging-Header.h"; sourceTree = "<group>"; };
+		228738012004EB70000AA626 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		22CD44872087668700765728 /* DroidKufiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidKufiBold.ttf; sourceTree = "<group>"; };
+		22CD44882087668700765728 /* DroidKufiRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidKufiRegular.ttf; sourceTree = "<group>"; };
+		2B53EFAA125B27945686DE4F /* Pods-Makkah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makkah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makkah/Pods-Makkah.release.xcconfig"; sourceTree = "<group>"; };
+		2F4978AD24A69CE700DCADD4 /* CanadaHome_LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CanadaHome_LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F7CC25325782C3300FF3772 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		2F8FE38025734FDC00889D91 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2F95D4F6255C4050007CAD4E /* Al Madina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Al Madina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F95D4F7255C4051007CAD4E /* CanadaHome_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CanadaHome_Info.plist; sourceTree = "<group>"; };
+		2FB6AC352302BE0B006550EC /* Myriad Pro Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad Pro Semibold.ttf"; sourceTree = "<group>"; };
+		2FB6AC4E2302BE0C006550EC /* Myriad Pro Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad Pro Regular.ttf"; sourceTree = "<group>"; };
+		2FC87FB2225107FC00D6BC7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FF5C419264E815000CFBEF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34204C7E219574000097597D /* IOS_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOS_App.entitlements; sourceTree = "<group>"; };
+		38F3E76F6A401E9E418FACBD /* Pods-Makkah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makkah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makkah/Pods-Makkah.debug.xcconfig"; sourceTree = "<group>"; };
+		3F73EF2B9B8324DAE5DDB7F8 /* Pods-Saudi__Gazette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saudi__Gazette.release.xcconfig"; path = "Pods/Target Support Files/Pods-Saudi__Gazette/Pods-Saudi__Gazette.release.xcconfig"; sourceTree = "<group>"; };
+		42D3E4C35E0F240481D48A13 /* Pods-Saudi_Gazette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saudi_Gazette.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Saudi_Gazette/Pods-Saudi_Gazette.debug.xcconfig"; sourceTree = "<group>"; };
+		4BB8D2F41FBDD5A5E4A9B905 /* Pods-AlRai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlRai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlRai/Pods-AlRai.debug.xcconfig"; sourceTree = "<group>"; };
+		551197F97E8617DD084826D5 /* Pods-AlWatan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlWatan.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlWatan/Pods-AlWatan.release.xcconfig"; sourceTree = "<group>"; };
+		58406AE705C96F83E6647B2B /* Pods-AlWatan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlWatan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlWatan/Pods-AlWatan.debug.xcconfig"; sourceTree = "<group>"; };
+		593B11328D167FBBAA5CBBB8 /* Pods-Al Watan SA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al Watan SA.release.xcconfig"; path = "Pods/Target Support Files/Pods-Al Watan SA/Pods-Al Watan SA.release.xcconfig"; sourceTree = "<group>"; };
+		5EB7816CEE3CDC374FE47A59 /* Pods-AlMadina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlMadina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlMadina/Pods-AlMadina.debug.xcconfig"; sourceTree = "<group>"; };
+		61162F7D4F909F54ED9B2C33 /* Pods-AlWatan News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlWatan News.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlWatan News/Pods-AlWatan News.release.xcconfig"; sourceTree = "<group>"; };
+		636D9FB0595CB374EF845171 /* Pods-CanadaHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome.release.xcconfig"; sourceTree = "<group>"; };
+		7496F59403E36A1063BDA5AA /* Pods-Saudi__Gazette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saudi__Gazette.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Saudi__Gazette/Pods-Saudi__Gazette.debug.xcconfig"; sourceTree = "<group>"; };
+		76246AD120BC5B60FA818240 /* Pods-AlMadina_Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlMadina_Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlMadina_Live/Pods-AlMadina_Live.release.xcconfig"; sourceTree = "<group>"; };
+		8BEE1625B282976AE1AF0A76 /* Pods-Saudi_Gazette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saudi_Gazette.release.xcconfig"; path = "Pods/Target Support Files/Pods-Saudi_Gazette/Pods-Saudi_Gazette.release.xcconfig"; sourceTree = "<group>"; };
+		94A1A69635FAE70D64DAE1A3 /* Pods-AlMadina_Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlMadina_Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlMadina_Live/Pods-AlMadina_Live.debug.xcconfig"; sourceTree = "<group>"; };
+		9823F3FE21FB447C006233A4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		987A9EC822159DAF00761269 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		A16FD1672010F025544F780C /* Pods-AlMadina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlMadina.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlMadina/Pods-AlMadina.release.xcconfig"; sourceTree = "<group>"; };
+		AF37CBEC41BA695AB558DD45 /* Pods-AlWatan News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlWatan News.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlWatan News/Pods-AlWatan News.debug.xcconfig"; sourceTree = "<group>"; };
+		B1451DE4504361935E40A5D7 /* Pods-CanadaHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome.debug.xcconfig"; sourceTree = "<group>"; };
+		D215481807CDA2DCBA6E7DD9 /* Pods_CanadaHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanadaHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53F71E6FD94FB25D5921BA3 /* Pods-AlRai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlRai.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlRai/Pods-AlRai.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F95D4DE255C4050007CAD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F95D4DF255C4050007CAD4E /* AdSupport.framework in Frameworks */,
+				6F4757B32547C821BA7EE897 /* Pods_CanadaHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058AA031C71B6783E060CCF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EB7816CEE3CDC374FE47A59 /* Pods-AlMadina.debug.xcconfig */,
+				A16FD1672010F025544F780C /* Pods-AlMadina.release.xcconfig */,
+				4BB8D2F41FBDD5A5E4A9B905 /* Pods-AlRai.debug.xcconfig */,
+				F53F71E6FD94FB25D5921BA3 /* Pods-AlRai.release.xcconfig */,
+				58406AE705C96F83E6647B2B /* Pods-AlWatan.debug.xcconfig */,
+				551197F97E8617DD084826D5 /* Pods-AlWatan.release.xcconfig */,
+				AF37CBEC41BA695AB558DD45 /* Pods-AlWatan News.debug.xcconfig */,
+				61162F7D4F909F54ED9B2C33 /* Pods-AlWatan News.release.xcconfig */,
+				38F3E76F6A401E9E418FACBD /* Pods-Makkah.debug.xcconfig */,
+				2B53EFAA125B27945686DE4F /* Pods-Makkah.release.xcconfig */,
+				94A1A69635FAE70D64DAE1A3 /* Pods-AlMadina_Live.debug.xcconfig */,
+				76246AD120BC5B60FA818240 /* Pods-AlMadina_Live.release.xcconfig */,
+				20C3D544277A21FB5BF6F0AF /* Pods-Al Watan SA.debug.xcconfig */,
+				593B11328D167FBBAA5CBBB8 /* Pods-Al Watan SA.release.xcconfig */,
+				7496F59403E36A1063BDA5AA /* Pods-Saudi__Gazette.debug.xcconfig */,
+				3F73EF2B9B8324DAE5DDB7F8 /* Pods-Saudi__Gazette.release.xcconfig */,
+				42D3E4C35E0F240481D48A13 /* Pods-Saudi_Gazette.debug.xcconfig */,
+				8BEE1625B282976AE1AF0A76 /* Pods-Saudi_Gazette.release.xcconfig */,
+				B1451DE4504361935E40A5D7 /* Pods-CanadaHome.debug.xcconfig */,
+				636D9FB0595CB374EF845171 /* Pods-CanadaHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		223C6601205BFD55009C312E /* Localize */ = {
+			isa = PBXGroup;
+			children = (
+				225AB9C01FDE997100175940 /* Localizer.swift */,
+				225AB9BC1FDE7A4C00175940 /* Localizable.strings */,
+			);
+			path = Localize;
+			sourceTree = "<group>";
+		};
+		2243ED521FD15DDF00FDECAF = {
+			isa = PBXGroup;
+			children = (
+				34204C7E219574000097597D /* IOS_App.entitlements */,
+				2FF5C414264E812000CFBEF8 /* Firebase */,
+				2F49789C24A698E700DCADD4 /* Profile */,
+				2243ED5D1FD15DDF00FDECAF /* App */,
+				2274E0301FD16E6C009CB04D /* Supporting Files */,
+				058AA031C71B6783E060CCF8 /* Pods */,
+				F40CBF5DC82089677CADA0B8 /* Frameworks */,
+				2F95D4F6255C4050007CAD4E /* Al Madina.app */,
+			);
+			sourceTree = "<group>";
+		};
+		2243ED5D1FD15DDF00FDECAF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2243ED5E1FD15DDF00FDECAF /* AppDelegate.swift */,
+				2243ED621FD15DDF00FDECAF /* Main.storyboard */,
+				2FC87FB2225107FC00D6BC7D /* Assets.xcassets */,
+				224EF05D20847EFF008F6272 /* DefaultViewController.swift */,
+				228738012004EB70000AA626 /* LoadingViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		226249A81FE2A1E80031F24E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2FB6AC4E2302BE0C006550EC /* Myriad Pro Regular.ttf */,
+				2FB6AC352302BE0B006550EC /* Myriad Pro Semibold.ttf */,
+				22CD44872087668700765728 /* DroidKufiBold.ttf */,
+				22CD44882087668700765728 /* DroidKufiRegular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2274E0301FD16E6C009CB04D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F7CC25325782C3300FF3772 /* NotificationManager.swift */,
+				2231E0F0205F9F870023F72C /* Constants.swift */,
+				2274E0311FD16E8B009CB04D /* IDS-Bridging-Header.h */,
+				2F8FE38025734FDC00889D91 /* NetworkManager.swift */,
+				226249A81FE2A1E80031F24E /* Fonts */,
+				223C6601205BFD55009C312E /* Localize */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F49789C24A698E700DCADD4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2F4978AD24A69CE700DCADD4 /* CanadaHome_LaunchScreen.storyboard */,
+				2F95D4F7255C4051007CAD4E /* CanadaHome_Info.plist */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2FF5C414264E812000CFBEF8 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				2FF5C415264E812A00CFBEF8 /* CanadaHome */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		2FF5C415264E812A00CFBEF8 /* CanadaHome */ = {
+			isa = PBXGroup;
+			children = (
+				2FF5C419264E815000CFBEF8 /* GoogleService-Info.plist */,
+			);
+			path = CanadaHome;
+			sourceTree = "<group>";
+		};
+		987A9EC922159DAF00761269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F44B8B52576DDC600A7E9BE /* Alamofire.framework */,
+				2F44B8B72576DDC600A7E9BE /* FirebaseCore.framework */,
+				2F44B8B92576DDC600A7E9BE /* FirebaseCoreDiagnostics.framework */,
+				2F44B8BB2576DDC600A7E9BE /* FirebaseCrashlytics.framework */,
+				2F44B8BD2576DDC600A7E9BE /* FirebaseInstallations.framework */,
+				2F44B8BF2576DDC600A7E9BE /* FirebaseInstanceID.framework */,
+				2F44B8C12576DDC600A7E9BE /* FirebaseMessaging.framework */,
+				2F44B8C32576DDC600A7E9BE /* GoogleDataTransport.framework */,
+				2F44B8C52576DDC600A7E9BE /* GoogleUtilities.framework */,
+				2F44B8CD2576DDC600A7E9BE /* nanopb.framework */,
+				2FF5C40F264E802200CFBEF8 /* Pods_CanadaHome.framework */,
+				2F44B8CF2576DDC600A7E9BE /* FBLPromises.framework */,
+				2FF5C4AF264E906100CFBEF8 /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40CBF5DC82089677CADA0B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				987A9EC822159DAF00761269 /* Pods.xcodeproj */,
+				9823F3FE21FB447C006233A4 /* AdSupport.framework */,
+				D215481807CDA2DCBA6E7DD9 /* Pods_CanadaHome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F95D4D2255C4050007CAD4E /* CanadaHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F95D4F3255C4050007CAD4E /* Build configuration list for PBXNativeTarget "CanadaHome" */;
+			buildPhases = (
+				98F923944E9A89B41FCC5AE6 /* [CP] Check Pods Manifest.lock */,
+				2F95D4D4255C4050007CAD4E /* Sources */,
+				2F95D4DE255C4050007CAD4E /* Frameworks */,
+				2F95D4E1255C4050007CAD4E /* ShellScript */,
+				2F95D4E2255C4050007CAD4E /* Resources */,
+				E84614A2BBB734E3C4FCCB99 /* [CP] Embed Pods Frameworks */,
+				2FF5C3FF264E802200CFBEF8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanadaHome;
+			productName = UNDP;
+			productReference = 2F95D4F6255C4050007CAD4E /* Al Madina.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2243ED531FD15DDF00FDECAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "IDS Mac";
+				TargetAttributes = {
+					2F95D4D2255C4050007CAD4E = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2243ED561FD15DDF00FDECAF /* Build configuration list for PBXProject "IOS_App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"ar-LB",
+			);
+			mainGroup = 2243ED521FD15DDF00FDECAF;
+			productRefGroup = 2243ED521FD15DDF00FDECAF;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 987A9EC922159DAF00761269 /* Products */;
+					ProjectRef = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2F95D4D2255C4050007CAD4E /* CanadaHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2F44B8B52576DDC600A7E9BE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 2F44B8B42576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F44B8B72576DDC600A7E9BE /* FirebaseCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCore.framework;
+			remoteRef = 2F44B8B62576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F44B8B92576DDC600A7E9BE /* FirebaseCoreDiagnostics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCoreDiagnostics.framework;
+			remoteRef = 2F44B8B82576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F44B8BB2576DDC600A7E9BE /* FirebaseCrashlytics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseCrashlytics.framework;
+			remoteRef = 2F44B8BA2576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F44B8BD2576DDC600A7E9BE /* FirebaseInstallations.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseInstallations.framework;
+			remoteRef = 2F44B8BC2576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F44B8BF2576DDC600A7E9BE /* FirebaseInstanceID.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseInstanceID.framework;
+			remoteRef = 2F44B8BE2576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F44B8C12576DDC600A7E9BE /* FirebaseMessaging.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseMessaging.framework;
+			remoteRef = 2F44B8C02576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F44B8C32576DDC600A7E9BE /* GoogleDataTransport.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleDataTransport.framework;
+			remoteRef = 2F44B8C22576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F44B8C52576DDC600A7E9BE /* GoogleUtilities.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleUtilities.framework;
+			remoteRef = 2F44B8C42576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F44B8CD2576DDC600A7E9BE /* nanopb.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = nanopb.framework;
+			remoteRef = 2F44B8CC2576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F44B8CF2576DDC600A7E9BE /* FBLPromises.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBLPromises.framework;
+			remoteRef = 2F44B8CE2576DDC600A7E9BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2FF5C40F264E802200CFBEF8 /* Pods_CanadaHome.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_CanadaHome.framework;
+			remoteRef = 2FF5C40E264E802200CFBEF8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2FF5C4AF264E906100CFBEF8 /* Toast_Swift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Toast_Swift.framework;
+			remoteRef = 2FF5C4AE264E906100CFBEF8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F95D4E2255C4050007CAD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF5C41A264E815000CFBEF8 /* GoogleService-Info.plist in Resources */,
+				2F95D4E3255C4050007CAD4E /* Myriad Pro Semibold.ttf in Resources */,
+				2F95D4E5255C4050007CAD4E /* DroidKufiBold.ttf in Resources */,
+				2F95D4E8255C4050007CAD4E /* DroidKufiRegular.ttf in Resources */,
+				2F95D4E9255C4050007CAD4E /* CanadaHome_LaunchScreen.storyboard in Resources */,
+				2F95D4EC255C4050007CAD4E /* Localizable.strings in Resources */,
+				2F95D4ED255C4050007CAD4E /* Myriad Pro Regular.ttf in Resources */,
+				2F95D4EF255C4050007CAD4E /* Main.storyboard in Resources */,
+				2F95D4F0255C4050007CAD4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F95D4E1255C4050007CAD4E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which iblinter >/dev/null; then\niblinter lint\nelse\necho \"warning: IBLinter not installed, download from https://github.com/IBDecodable/IBLinter\"\nfi\n";
+		};
+		2FF5C3FF264E802200CFBEF8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n\"${PODS_ROOT}/FirebaseCrashlytics/upload-symbols\" -gsp \"${PROJECT_DIR}/Firebase/CanadaHome/GoogleService-Info.plist\" -p ios \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+		};
+		98F923944E9A89B41FCC5AE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CanadaHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84614A2BBB734E3C4FCCB99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstanceID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F95D4D4255C4050007CAD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8FE3A925734FDD00889D91 /* NetworkManager.swift in Sources */,
+				2F95D4D6255C4050007CAD4E /* AppDelegate.swift in Sources */,
+				2F95D4D7255C4050007CAD4E /* DefaultViewController.swift in Sources */,
+				2F95D4D8255C4050007CAD4E /* Localizer.swift in Sources */,
+				2F7CC26D25782C3300FF3772 /* NotificationManager.swift in Sources */,
+				2F95D4DB255C4050007CAD4E /* Constants.swift in Sources */,
+				2F95D4DC255C4050007CAD4E /* LoadingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2243ED621FD15DDF00FDECAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2243ED631FD15DDF00FDECAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		225AB9BC1FDE7A4C00175940 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225AB9BB1FDE7A4C00175940 /* en */,
+				225AB9BD1FDE7A5200175940 /* ar-LB */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2243ED6B1FD15DDF00FDECAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2243ED6C1FD15DDF00FDECAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F95D4F4255C4050007CAD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1451DE4504361935E40A5D7 /* Pods-CanadaHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CanadaHome_AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CODE_SIGN_ENTITLEMENTS = IOS_App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = FK7GST2N29;
+				INFOPLIST_FILE = "$(SRCROOT)/Profile/CanadaHome_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canada.home;
+				PRODUCT_NAME = "Al Madina";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/IDS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F95D4F5255C4050007CAD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636D9FB0595CB374EF845171 /* Pods-CanadaHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CanadaHome_AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CODE_SIGN_ENTITLEMENTS = IOS_App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = FK7GST2N29;
+				INFOPLIST_FILE = "$(SRCROOT)/Profile/CanadaHome_Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canada.home;
+				PRODUCT_NAME = "Al Madina";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/IDS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2243ED561FD15DDF00FDECAF /* Build configuration list for PBXProject "IOS_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2243ED6B1FD15DDF00FDECAF /* Debug */,
+				2243ED6C1FD15DDF00FDECAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F95D4F3255C4050007CAD4E /* Build configuration list for PBXNativeTarget "CanadaHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F95D4F4255C4050007CAD4E /* Debug */,
+				2F95D4F5255C4050007CAD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2243ED531FD15DDF00FDECAF /* Project object */;
+}

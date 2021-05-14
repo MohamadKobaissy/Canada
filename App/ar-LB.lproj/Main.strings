@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "56b-GN-Hv6"; */
+"56b-GN-Hv6.normalTitle" = "العربية";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "9so-ZP-v86"; */
+"9so-ZP-v86.placeholder" = "اسم المستخدم";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "WZp-9H-ov5"; */
+"WZp-9H-ov5.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "pAa-DF-eRA"; */
+"pAa-DF-eRA.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "SPONSORS"; ObjectID = "svS-an-RZU"; */
+"svS-an-RZU.text" = "الرعاة";

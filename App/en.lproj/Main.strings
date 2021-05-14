@@ -1,0 +1,45 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2dk-jd-e9j"; */
+"2dk-jd-e9j.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3He-S8-mjU"; */
+"3He-S8-mjU.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "العربية"; ObjectID = "56b-GN-Hv6"; */
+"56b-GN-Hv6.normalTitle" = "العربية";
+
+/* Class = "UILabel"; text = "setting"; ObjectID = "FV6-BW-ZYh"; */
+"FV6-BW-ZYh.text" = "setting";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GZI-Wm-w52"; */
+"GZI-Wm-w52.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "عربي"; ObjectID = "JEA-lH-Lud"; */
+"JEA-lH-Lud.normalTitle" = "عربي";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JVw-1R-yAQ"; */
+"JVw-1R-yAQ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JqX-f3-LD3"; */
+"JqX-f3-LD3.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aAw-pN-WGl"; */
+"aAw-pN-WGl.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "daq-h2-GhY"; */
+"daq-h2-GhY.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "df5-2L-lZb"; */
+"df5-2L-lZb.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "evr-0r-Rm9"; */
+"evr-0r-Rm9.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "Language settings"; ObjectID = "nyU-9g-psc"; */
+"nyU-9g-psc.text" = "Language settings";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "pAa-DF-eRA"; */
+"pAa-DF-eRA.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "version"; ObjectID = "v1Z-WN-eie"; */
+"v1Z-WN-eie.text" = "version";

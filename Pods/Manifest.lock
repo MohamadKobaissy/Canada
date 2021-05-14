@@ -1,0 +1,112 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Firebase/CoreOnly (7.11.0):
+    - FirebaseCore (= 7.11.0)
+  - Firebase/Crashlytics (7.11.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 7.11.0)
+  - Firebase/Messaging (7.11.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 7.11.0)
+  - FirebaseCore (7.11.0):
+    - FirebaseCoreDiagnostics (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.11.0):
+    - GoogleDataTransport (~> 8.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30908.0)
+  - FirebaseCrashlytics (7.11.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleDataTransport (~> 8.4)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstallations (7.11.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (7.11.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+  - FirebaseMessaging (7.11.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - FirebaseInstanceID (~> 7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Reachability (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+  - GoogleDataTransport (8.4.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.4.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.4.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.4.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.4.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.4.0)"
+  - GoogleUtilities/Reachability (7.4.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.4.0):
+    - GoogleUtilities/Logger
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - PromisesObjC (1.2.12)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Firebase/Crashlytics
+  - Firebase/Messaging
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleDataTransport
+    - GoogleUtilities
+    - nanopb
+    - PromisesObjC
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Firebase: c121feb35e4126c0b355e3313fa9b487d47319fd
+  FirebaseCore: 907447d8917a4d3eb0cce2829c5a0ad21d90b432
+  FirebaseCoreDiagnostics: 68ad972f99206cef818230f3f3179d52ccfb7f8c
+  FirebaseCrashlytics: 272b675aa9d1e9bae1f9e1449fcc1f2cf6042806
+  FirebaseInstallations: a58d4f72ec5861840b84df489f2668d970df558a
+  FirebaseInstanceID: ad5135045a498d7775903efd39762d2cdfa1be27
+  FirebaseMessaging: 163435fb6db065e3b6228f1e577b10ed2cc506d2
+  GoogleDataTransport: cd9db2180fcecd8da1b561aea31e3e56cf834aa7
+  GoogleUtilities: 284cddc7fffc14ae1907efb6f78ab95c1fccaedc
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 67b073da01cf3828862cb9e257b2c6b70f18b7e1
+
+COCOAPODS: 1.5.2

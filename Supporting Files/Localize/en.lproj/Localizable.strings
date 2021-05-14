@@ -1,0 +1,22 @@
+/*
+ Localizable.strings
+ 
+ Created by Kobaissy on 08/04/19.
+ Copyright © 2019 Kobaissy Mackbook. All rights reserved.
+ */
+
+
+"app_name" = "IOS_App";
+
+
+"accept" = "Accept";
+"reject" = "Reject";
+"requests" = "Requests";
+"update_button" = "Update";
+"update_title" = "Update Available";
+"update_message" = "New version is available, please update";
+"update_ok" = "OK";
+"update_cancel" = "Cancel";
+"no_internet" = "Problem with connection!";
+"sign_in" = "Sign in";
+"cancel" = "Cancel";

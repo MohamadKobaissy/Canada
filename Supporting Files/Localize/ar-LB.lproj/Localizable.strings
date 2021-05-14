@@ -1,0 +1,32 @@
+/*
+ Localizable.strings
+ 
+ Created by Kobaissy on 4/26/19.
+ Copyright © Kobaissy. All rights reserved.
+ */
+
+
+
+"Logout" = " تسجيل الخروج ";
+"HidePost" = " Hide Post ";
+"Clear" = " إزالة ";
+"UpdateAvailable" = " التحديث متاح ";
+"Update" = " تحديث ";
+"forceupdatealert" = " من فضلك ,قم بتحديث التطبيق من أجل المتابعة. ";
+"noconnectionalert" = " هناك مشكلة بالإتصال.\n الرجاء التحقق من إتصالك بالإنترنت وحاول مرة أخرى. ";
+"retry" = " إعادة المحاولة ";
+"ok" = "موافق";
+"error" = " خطأ ";
+"cancel" = "إلغاء";
+"Yes" = " نعم ";
+"invailedKey" = " المفتاح الذي قمت بإدخاله غير صالح. ";
+"done" = "تم";
+"reset_time" = "إعادة تعيين";
+
+"no_internet" = "بس لديك إتصال بالإنترنت";
+
+"today" = "اليوم";
+"max_100_charachter" = "٩٩ حرف على الأكثر";
+"date" = "التاريخ";
+"time" = "الوقت";
+"description" = "الملاحظات";
