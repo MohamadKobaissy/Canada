@@ -26,8 +26,6 @@ final class NotificationManager: NSObject {
     
     let center = UNUserNotificationCenter.current()
     
-    var userInfo: [AnyHashable : Any]?
-    
     private override init() {}
     
     func checkNotificationSettingsStatus() {
@@ -78,42 +76,6 @@ final class NotificationManager: NSObject {
         }
         print("FCM Token:",token)
         appDelegate.tokenString = token
-        
-        //    let topic = "Section 2"
-        //    Messaging.messaging().subscribe(toTopic: topic)
-        //
-        //    let jsonParams = "{\"user_key\":\"\(token)\", \"device\":\"mobile\", \"topic\":\"\(topic)\"}"
-        //
-        //    if let url = URL(string: "https://almadina2.axeldemos.com"){
-        //        var request = URLRequest(url: url)
-        //        request.httpMethod = "POST"
-        //        request.httpBody = Data(jsonParams.utf8)
-        //        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        //        request.addValue("application/json", forHTTPHeaderField: "Accept")
-        //
-        //        Alamofire.request(request).responseJSON { response in
-        //            print("sendFCMTokenToServer request response:",response.result.value ?? "-")
-        //
-        //            switch response.response?.statusCode ?? 0 {
-        //            case 200:
-        //                break
-        //            default:
-        //                break
-        //            }
-        //        }
-        //    }
-        
-        
-        //Alamofire.request("https://almadina2.axeldemos.com", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers)
-        //    .responseJSON { (response) in
-        //        // Handle status codes
-        //        switch response.response?.statusCode ?? 0 {
-        //        case 200:
-        //            break
-        //        default:
-        //            break
-        //        }
-        //}
     }
 }
 
@@ -137,20 +99,20 @@ extension NotificationManager: UNUserNotificationCenterDelegate {
             return
         }
         
-        self.userInfo = response.notification.request.content.userInfo
+        let userInfo = response.notification.request.content.userInfo
         
         let state = UIApplication.shared.applicationState
         if(state == .inactive) { //# App is transitioning from background to foreground (user taps notification), do what you need when user taps here!
-            handleNotification(show: true, userInfo: self.userInfo)
+            handleNotification(show: true, userInfo: userInfo)
         }
         else if(state == .active) { //# App is currently active, can update badges count here
-            handleNotification(show: true, userInfo: self.userInfo)
+            handleNotification(show: true, userInfo: userInfo)
         }
         else if(state == .background) { //# App is in background, if content-available key of your notification is set to 1, poll to your backend to retrieve data and update your interface here */
-            handleNotification(show: false, userInfo: self.userInfo)
+            handleNotification(show: false, userInfo: userInfo)
         }
         
-        NotificationCenter.default.post(name: .PushNotificationTapped, object: nil, userInfo: self.userInfo)
+        NotificationCenter.default.post(name: .PushNotificationTapped, object: nil, userInfo: userInfo)
         
         completionHandler()
     }
@@ -165,18 +127,6 @@ extension AppDelegate : MessagingDelegate {
         // Note: This callback is fired at each app startup and whenever a new token is generated.
         // TODO: If necessary send token to application server.
         print("Firebase registration token: \((fcmToken ?? ""))")
-        
-        //    let dataDict:[String: String] = ["token": (fcmToken ?? "")]
-        //    NotificationCenter.default.post(name: Notification.Name("FCMToken"), object: nil, userInfo: dataDict)
-        //
-        //    Messaging.messaging().subscribe(toTopic: "news") { error in
-        //        if error == nil {
-        //            print("Subscribed to news topic")
-        //        }
-        //        else {
-        //            print("Subscribed to news topic , error:",error?.localizedDescription ?? "-")
-        //        }
-        //    }
     }
     
 }

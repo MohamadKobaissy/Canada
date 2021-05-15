@@ -81,6 +81,10 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
         UserDefaults.standard.set(appVersion, forKey: "lastVersion")
         UserDefaults.standard.set(appBundle, forKey: "lastBundle")
         UserDefaults.standard.synchronize()
+        
+        DispatchQueue.main.async {
+            UIApplication.shared.applicationIconBadgeNumber = 0
+        }
     }
     
     

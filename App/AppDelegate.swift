@@ -109,6 +109,7 @@ extension AppDelegate {
     }
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        Messaging.messaging().apnsToken = deviceToken
         NotificationManager.shared.sendFCMTokenToServer()
     }
     

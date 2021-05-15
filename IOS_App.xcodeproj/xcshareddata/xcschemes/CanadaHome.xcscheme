@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2F95D4D2255C4050007CAD4E"
-               BuildableName = "Al Madina.app"
+               BuildableName = "Canada Home.app"
                BlueprintName = "CanadaHome"
                ReferencedContainer = "container:IOS_App.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2F95D4D2255C4050007CAD4E"
-            BuildableName = "Al Madina.app"
+            BuildableName = "Canada Home.app"
             BlueprintName = "CanadaHome"
             ReferencedContainer = "container:IOS_App.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2F95D4D2255C4050007CAD4E"
-            BuildableName = "Al Madina.app"
+            BuildableName = "Canada Home.app"
             BlueprintName = "CanadaHome"
             ReferencedContainer = "container:IOS_App.xcodeproj">
          </BuildableReference>
