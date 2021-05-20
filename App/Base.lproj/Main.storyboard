@@ -11,7 +11,7 @@
         <!--Loading View Controller-->
         <scene sceneID="U6w-ox-MUh">
             <objects>
-                <viewController storyboardIdentifier="LoadingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qtb-Y1-uhn" customClass="LoadingViewController" customModule="Al_Madina" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoadingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qtb-Y1-uhn" customClass="LoadingViewController" customModule="Canada_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wMo-uL-OMm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,7 +26,7 @@
                                 <rect key="frame" x="188.66666666666666" y="605" width="37" height="37"/>
                             </activityIndicatorView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g29-Ds-Q6k">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -35,7 +35,7 @@
                         <constraints>
                             <constraint firstItem="ksc-kN-FbX" firstAttribute="top" secondItem="VIW-gL-c9K" secondAttribute="bottom" id="2d2-cG-cdo"/>
                             <constraint firstItem="ksc-kN-FbX" firstAttribute="centerX" secondItem="wMo-uL-OMm" secondAttribute="centerX" id="5oD-Hd-cMg"/>
-                            <constraint firstItem="g29-Ds-Q6k" firstAttribute="top" secondItem="wMo-uL-OMm" secondAttribute="top" id="9SB-1N-fNW"/>
+                            <constraint firstItem="g29-Ds-Q6k" firstAttribute="top" secondItem="06v-rt-cTT" secondAttribute="top" id="9SB-1N-fNW"/>
                             <constraint firstAttribute="bottom" secondItem="g29-Ds-Q6k" secondAttribute="bottom" id="BHN-PQ-MGH"/>
                             <constraint firstItem="VIW-gL-c9K" firstAttribute="centerX" secondItem="wMo-uL-OMm" secondAttribute="centerX" id="D47-fv-tqB"/>
                             <constraint firstItem="VIW-gL-c9K" firstAttribute="centerY" secondItem="wMo-uL-OMm" secondAttribute="centerY" id="FBi-T0-Uej"/>

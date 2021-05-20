@@ -67,7 +67,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate  { //, GIDSignInDelegate
     }
     
     
-    func showAlert(vc: UIViewController? , titleTxt:String , msgTxt:String , btnTxt:String ){
+    func showAlert(vc: UIViewController?, titleTxt: String, msgTxt: String, btnTxt: String){
+        appDelegate.showAlert(vc: vc, titleTxt: titleTxt, msgTxt: msgTxt, btnTxt: btnTxt) { (isDone) in
+        }
+    }
+    
+    func showAlert(vc: UIViewController?, titleTxt: String, msgTxt: String, btnTxt: String, withCancelButton: Bool = false, withCompletionHandler completionHandler: @escaping (Bool) -> Void){
         let topWindow = UIWindow(frame: UIScreen.main.bounds)
         topWindow.rootViewController = UIViewController()
         topWindow.windowLevel = UIWindow.Level.alert + 1
@@ -84,15 +89,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate  { //, GIDSignInDelegate
         messageMutableString = NSMutableAttributedString(string: msgTxt as String, attributes: [NSAttributedString.Key.font: getFont(size: 15)])
         alertController.setValue(messageMutableString, forKey: "attributedMessage")
         
-        let okAction = UIAlertAction(title: btnTxt, style: UIAlertAction.Style.cancel, handler: nil)
+        let okAction = UIAlertAction(title: btnTxt.lowercased() == "ok" ? NSLocalizedString("ok", comment: "") : btnTxt , style: withCancelButton ? .default : .cancel){
+            UIAlertAction in
+            completionHandler(true)
+        }
         
-        //        okAction.setValue(UIColor.red, forKey: "titleTextColor")
         alertController.addAction(okAction)
-        //alertController.view.tintColor = AppColors.green
+        
+        if withCancelButton {
+            alertController.addAction(UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel, handler: nil))
+        }
         
         if(vc != nil){
             vc!.present(alertController, animated: true, completion: nil)
-        } else {
+        }
+        else{
             topWindow.makeKeyAndVisible()
             topWindow.rootViewController?.present(alertController, animated: true, completion: nil)
         }

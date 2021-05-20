@@ -229,6 +229,12 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
             let pasteboard = UIPasteboard.general
             pasteboard.string = "Device token: \(appDelegate.tokenString)"
             self.showToastMsg(msgTxt: "Device token: \(appDelegate.tokenString)")
+            
+            if(UIDevice.current.name.elementsEqual("MK iPhone 7+")){
+                appDelegate.showAlert(vc: self, titleTxt: "Need to clear the Cache files ?", msgTxt: "", btnTxt: "Yes", withCancelButton: true) { (_) in
+                    self.deleteCache()
+                }
+            }
         }
     }
     
