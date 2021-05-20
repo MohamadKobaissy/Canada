@@ -177,15 +177,19 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
         //print("navigationAction.request.url: ", navigationAction.request.url?.absoluteString)
         
         if navigationAction.navigationType == .linkActivated  {
-            let hostLink = (Bundle.main.infoDictionary!["host_link"] as? String) ?? ""
+            // let hostLink = (Bundle.main.infoDictionary!["host_link"] as? String) ?? ""
+            let hostLink = UserDefaults.standard.string(forKey: "savedLink") ?? ((Bundle.main.infoDictionary!["host_link"] as? String) ?? "")
             
             if let url = navigationAction.request.url,
-               let host = url.host, !host.hasPrefix(hostLink),
-               UIApplication.shared.canOpenURL(url) {
-                if #available(iOS 10.0, *) {
-                    UIApplication.shared.open(url)
-                } else {
-                    UIApplication.shared.openURL(url)
+               //let host = url.host, !host.hasPrefix(hostLink){
+               let host = url.host, !hostLink.contains(host){
+                
+                if UIApplication.shared.canOpenURL(url) {
+                    if #available(iOS 10.0, *) {
+                        UIApplication.shared.open(url)
+                    } else {
+                        UIApplication.shared.openURL(url)
+                    }
                 }
                 
                 print("Redirected url:",url)
