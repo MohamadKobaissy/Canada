@@ -1,6 +1,6 @@
 //
-//  MainViewController.swift
-//  UNDP
+//  DefaultViewController.swift
+//  
 //
 //  Copyright © Kobaissy. All rights reserved.
 //
@@ -22,7 +22,7 @@ class DefaultViewController: UIViewController {
             overrideUserInterfaceStyle = .light
         }
         
-        self.navigationController?.navigationBar.barTintColor = UIColor.black
+        self.navigationController?.navigationBar.barTintColor = UIColor.white
         
         self.navigationController?.navigationBar.topItem?.title = ""
         self.navigationController?.navigationBar.tintColor = UIColor.white

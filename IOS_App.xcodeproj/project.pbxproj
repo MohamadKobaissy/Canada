@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F176BC626599219003A2545 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F176BC526599219003A2545 /* DetailsViewController.swift */; };
 		2F7CC26D25782C3300FF3772 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7CC25325782C3300FF3772 /* NotificationManager.swift */; };
 		2F8FE3A925734FDD00889D91 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8FE38025734FDC00889D91 /* NetworkManager.swift */; };
 		2F95D4D6255C4050007CAD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243ED5E1FD15DDF00FDECAF /* AppDelegate.swift */; };
@@ -135,6 +136,7 @@
 		22CD44872087668700765728 /* DroidKufiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidKufiBold.ttf; sourceTree = "<group>"; };
 		22CD44882087668700765728 /* DroidKufiRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidKufiRegular.ttf; sourceTree = "<group>"; };
 		2B53EFAA125B27945686DE4F /* Pods-Makkah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makkah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makkah/Pods-Makkah.release.xcconfig"; sourceTree = "<group>"; };
+		2F176BC526599219003A2545 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		2F4978AD24A69CE700DCADD4 /* CanadaHome_LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CanadaHome_LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F7CC25325782C3300FF3772 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		2F8FE38025734FDC00889D91 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				2FC87FB2225107FC00D6BC7D /* Assets.xcassets */,
 				224EF05D20847EFF008F6272 /* DefaultViewController.swift */,
 				228738012004EB70000AA626 /* LoadingViewController.swift */,
+				2F176BC526599219003A2545 /* DetailsViewController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -594,6 +597,7 @@
 				2F8FE3A925734FDD00889D91 /* NetworkManager.swift in Sources */,
 				2F95D4D6255C4050007CAD4E /* AppDelegate.swift in Sources */,
 				2F95D4D7255C4050007CAD4E /* DefaultViewController.swift in Sources */,
+				2F176BC626599219003A2545 /* DetailsViewController.swift in Sources */,
 				2F95D4D8255C4050007CAD4E /* Localizer.swift in Sources */,
 				2F7CC26D25782C3300FF3772 /* NotificationManager.swift in Sources */,
 				2F95D4DB255C4050007CAD4E /* Constants.swift in Sources */,
@@ -751,7 +755,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = FK7GST2N29;
@@ -781,7 +785,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = FK7GST2N29;
 				INFOPLIST_FILE = "$(SRCROOT)/Profile/CanadaHome_Info.plist";

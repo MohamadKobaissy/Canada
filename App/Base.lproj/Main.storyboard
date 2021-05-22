@@ -45,15 +45,36 @@
                             <constraint firstAttribute="trailing" secondItem="g29-Ds-Q6k" secondAttribute="trailing" id="raD-MU-fsV"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="f14-8J-W4M"/>
                     <connections>
                         <outlet property="loader" destination="ksc-kN-FbX" id="LvZ-ww-hMX"/>
                         <outlet property="logoImage" destination="VIW-gL-c9K" id="4dd-5A-y3h"/>
                         <outlet property="viewContainer" destination="g29-Ds-Q6k" id="w44-8u-AEp"/>
+                        <segue destination="UPi-on-gcW" kind="show" id="KUx-TC-nxV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Iq-Ee-H0o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6434.7826086956529" y="-1907.1428571428571"/>
+            <point key="canvasLocation" x="-5524.6376811594209" y="-1907.1428571428571"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="hHA-H5-rmY">
+            <objects>
+                <viewController storyboardIdentifier="DetailsViewControllerID" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UPi-on-gcW" customClass="DetailsViewController" customModule="Canada_Home" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yAD-hU-HJJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="QU7-sL-Qj0"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fcs-mD-qs4"/>
+                    <connections>
+                        <outlet property="viewContainer" destination="yAD-hU-HJJ" id="uha-pE-9Zx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lOl-nU-0md" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4619" y="-1907"/>
         </scene>
     </scenes>
 </document>

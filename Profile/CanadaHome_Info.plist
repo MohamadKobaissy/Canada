@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>FirebaseAppDelegateProxyEnabled</key>
-	<false/>
 	<key>CFBundleDisplayName</key>
 	<string>Canada Home</string>
 	<key>CFBundleExecutable</key>
@@ -33,6 +31,8 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
@@ -89,10 +89,10 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>host_link</key>
-	<string>m.al-madina</string>
+	<string>inoyadi.com</string>
 	<key>logo_image</key>
 	<string>CanadaHome_Logo</string>
 	<key>site_link</key>
-	<string>https://m.al-madina.com?utm_redirect=pwa_app&amp;app=1</string>
+	<string>https://inoyadi.com/shca/</string>
 </dict>
 </plist>

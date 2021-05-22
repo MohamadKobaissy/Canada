@@ -3,6 +3,7 @@ import UIKit
 
 
 let appDelegate = UIApplication.shared.delegate as! AppDelegate
+let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
 
 
 func getFont(size: CGFloat) -> UIFont {

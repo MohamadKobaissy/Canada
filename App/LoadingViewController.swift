@@ -1,7 +1,9 @@
 //
 //  LoadingViewController.swift
+//  CanadaHome
 //
-//
+//  Created by Kobaissy on 5/22/21.
+//  Copyright © 2021 IDS Mac. All rights reserved.
 //
 
 import UIKit
@@ -58,6 +60,11 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
         //    self.viewContainer.isHidden = false
         //}
         
+        if UserDefaults.standard.object(forKey: "savedLink") == nil {
+            UserDefaults.standard.set((Bundle.main.infoDictionary!["site_link"] as? String) ?? "", forKey: "savedLink")
+            UserDefaults.standard.synchronize()
+        }
+        
         let appVersion: Double = Bundle.main.getVersionNumber ?? 0
         let appBundle: Double = Double(Bundle.main.getBundleNumber) ?? 0
         let savedAppVersion: Double = UserDefaults.standard.double(forKey: "lastVersion")
@@ -69,13 +76,18 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
         print("saved AppBundle:",savedAppBundle)
         
         if (UserDefaults.standard.string(forKey: "lastVersion") == nil){
+            //    UserDefaults.standard.set(Bundle.main.getVersionNumber ?? 0, forKey: "lastVersion")
+            //    UserDefaults.standard.set(Double(Bundle.main.getBundleNumber) ?? 0, forKey: "lastBundle")
+            //    UserDefaults.standard.synchronize()
+            
             deleteCache()
         }
         else if ((appVersion > savedAppVersion) || (appBundle > savedAppBundle)) {
             deleteCache()
         }
         else {
-            getData()
+            // getData()
+            self.loadLink(UserDefaults.standard.string(forKey: "savedLink") ?? ((Bundle.main.infoDictionary!["site_link"] as? String) ?? ""))
         }
         
         UserDefaults.standard.set(appVersion, forKey: "lastVersion")
@@ -88,8 +100,7 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
     }
     
     
-    func deleteCache(){
-        
+    func deleteCache(_ loadNew: Bool = false){
         HTTPCookieStorage.shared.removeCookies(since: Date.distantPast)
         print("[WebCacheCleaner] All cookies deleted")
         
@@ -98,20 +109,29 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
                 WKWebsiteDataStore.default().removeData(ofTypes: record.dataTypes, for: [record], completionHandler: {})
                 print("[WebCacheCleaner] Record \(record) deleted")
             }
-            
-            self.getData()
+        }
+        
+        if loadNew {
+            UserDefaults.standard.set(((Bundle.main.infoDictionary!["site_link"] as! String)), forKey: "savedLink")
+            UserDefaults.standard.synchronize()
+            self.openLinkAlert()
+        }
+        else {
+            DispatchQueue.main.async {
+                self.loadLink()
+            }
         }
     }
     
     
-    func getData(){
+    func openLinkAlert(){
         DispatchQueue.main.async {
             let alertController = UIAlertController(title: "Please enter the site link:", message: "", preferredStyle: .alert)
             
             alertController.addTextField { (textField : UITextField!) -> Void in
                 textField.placeholder = "http://"
                 // textField.keyboardType = .decimalPad
-                textField.text = UserDefaults.standard.string(forKey: "savedLink") ?? "http://"
+                textField.text = UserDefaults.standard.string(forKey: "savedLink") ?? ((Bundle.main.infoDictionary!["site_link"] as? String) ?? "http://")
             }
             
             alertController.addAction(UIAlertAction(title: NSLocalizedString("Load", comment: ""), style: .default, handler: { (UIAlertAction) in
@@ -120,6 +140,8 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
                     self.loadLink(textField.text?.trimmingCharacters(in: .whitespaces) ?? "")
                 }
             }))
+            
+            alertController.addAction(UIAlertAction(title: NSLocalizedString("cancel", comment: ""), style: .cancel, handler: nil))
             
             self.present(alertController, animated: true, completion: nil)
         }
@@ -159,7 +181,7 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
             if complete != nil {
                 
                 self.webView.evaluateJavaScript("document.body.scrollHeight", completionHandler: { (height, error) in
-                    if let scrollHeight = height as? CGFloat{
+                    if let scrollHeight = height as? CGFloat {
                         print("webView contentSize scrollHeight:",scrollHeight)
                         self.viewContainer.isHidden = false
                         self.logoImage.isHidden = true
@@ -198,6 +220,11 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
             } else {
                 print("Open it locally")
                 decisionHandler(.allow)
+                
+                //    if let vc = mainStoryboard.instantiateViewController(withIdentifier: "DetailsViewControllerID") as? DetailsViewController {
+                //        vc.linkStr = navigationAction.request.url
+                //        self.navigationController?.pushViewController(vc, animated: true)
+                //    }
             }
         } else {
             print("not a user click")
@@ -230,11 +257,12 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
             pasteboard.string = "Device token: \(appDelegate.tokenString)"
             self.showToastMsg(msgTxt: "Device token: \(appDelegate.tokenString)")
             
-            if(UIDevice.current.name.elementsEqual("MK iPhone 7+")){
-                appDelegate.showAlert(vc: self, titleTxt: "Need to clear the Cache files ?", msgTxt: "", btnTxt: "Yes", withCancelButton: true) { (_) in
-                    self.deleteCache()
-                }
+            //if(UIDevice.current.name.elementsEqual("MK iPhone 7+")){
+            
+            appDelegate.showAlert(vc: self, titleTxt: "Need to clear the Cache files ?", msgTxt: "", btnTxt: "Yes", withCancelButton: true) { (_) in
+                self.deleteCache(true)
             }
+            //}
         }
     }
     

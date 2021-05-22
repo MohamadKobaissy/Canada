@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate  { //, GIDSignInDelegate
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        setLanguage(lang: Language.EN, isRTL: true)
+        setLanguage(lang: Language.EN, isRTL: false)
         
         // Language switch
         Localizer.doTheMagic()
