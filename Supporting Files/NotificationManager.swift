@@ -136,7 +136,7 @@ func handleNotification(show: Bool, userInfo: [AnyHashable: Any]?) {
     //self.showNotification = true
     
     if let userInfo = userInfo {
-        var link = (userInfo["pagelink"] as? String ?? "")
+        var link = (userInfo["pagelink"] as? String ?? "") + (userInfo["gcm.notification.pagelink"] as? String ?? "")
         link += (userInfo["url"] as? String ?? "")
         
         print("handleNotification userInfo:",userInfo)
