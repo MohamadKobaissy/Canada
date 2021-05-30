@@ -108,7 +108,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate  { //, GIDSignInDelegate
             topWindow.rootViewController?.present(alertController, animated: true, completion: nil)
         }
     }
+    
+    
+    func AddDevice(token: String){
+        let url = "http://inoyadi.com/shca/api.php?class=Device&function=creat_token"
+        let parameters: Parameters = [
+            "imei": (UIDevice.current.identifierForVendor?.uuidString)! ,
+            "token": token ,
+            "osv": "1"
+        ]
+        
+        print("AddDevice url: " , url)
+        print("AddDevice parameters: " , parameters)
+        
+        Alamofire.request(url, method: .get, parameters: parameters).responseJSON { response in
+            switch response.result {
+            case .success:
+                print("AddDevice result: " , response.result.value ?? "nil")
+            case .failure(let error):
+                print("AddDevice result: " , error.localizedDescription)
+            }
+        }
+    }
+    
 }
+
 
 
 //MARK: - Notification

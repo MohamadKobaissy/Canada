@@ -76,6 +76,7 @@ final class NotificationManager: NSObject {
         }
         print("FCM Token:",token)
         appDelegate.tokenString = token
+        appDelegate.AddDevice(token: token)
     }
 }
 
