@@ -89,10 +89,14 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>host_link</key>
-	<string>inoyadi.com</string>
+	<string>canadasweethome.com</string>
+	<key>live_link</key>
+	<string>https://canadasweethome.com/</string>
 	<key>logo_image</key>
 	<string>CanadaHome_Logo</string>
 	<key>site_link</key>
+	<string>https://canadasweethome.com/</string>
+	<key>test_link</key>
 	<string>https://inoyadi.com/shca/</string>
 </dict>
 </plist>
