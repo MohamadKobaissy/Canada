@@ -60,11 +60,6 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
         //    self.viewContainer.isHidden = false
         //}
         
-        if UserDefaults.standard.object(forKey: "savedLink") == nil {
-            UserDefaults.standard.set((Bundle.main.infoDictionary!["site_link"] as? String) ?? "", forKey: "savedLink")
-            UserDefaults.standard.synchronize()
-        }
-        
         let appVersion: Double = Bundle.main.getVersionNumber ?? 0
         let appBundle: Double = Double(Bundle.main.getBundleNumber) ?? 0
         let savedAppVersion: Double = UserDefaults.standard.double(forKey: "lastVersion")
@@ -76,18 +71,13 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
         print("saved AppBundle:",savedAppBundle)
         
         if (UserDefaults.standard.string(forKey: "lastVersion") == nil){
-            //    UserDefaults.standard.set(Bundle.main.getVersionNumber ?? 0, forKey: "lastVersion")
-            //    UserDefaults.standard.set(Double(Bundle.main.getBundleNumber) ?? 0, forKey: "lastBundle")
-            //    UserDefaults.standard.synchronize()
-            
             deleteCache()
         }
         else if ((appVersion > savedAppVersion) || (appBundle > savedAppBundle)) {
             deleteCache()
         }
         else {
-            // getData()
-            self.loadLink(UserDefaults.standard.string(forKey: "savedLink") ?? ((Bundle.main.infoDictionary!["site_link"] as? String) ?? ""))
+            self.loadLink((Bundle.main.infoDictionary!["site_link"] as? String) ?? "")
         }
         
         UserDefaults.standard.set(appVersion, forKey: "lastVersion")
@@ -111,39 +101,8 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
             }
         }
         
-        if loadNew {
-            UserDefaults.standard.set(((Bundle.main.infoDictionary!["site_link"] as! String)), forKey: "savedLink")
-            UserDefaults.standard.synchronize()
-            self.openLinkAlert()
-        }
-        else {
-            DispatchQueue.main.async {
-                self.loadLink()
-            }
-        }
-    }
-    
-    
-    func openLinkAlert(){
         DispatchQueue.main.async {
-            let alertController = UIAlertController(title: "Please enter the site link:", message: "", preferredStyle: .alert)
-            
-            alertController.addTextField { (textField : UITextField!) -> Void in
-                textField.placeholder = "http://"
-                // textField.keyboardType = .decimalPad
-                textField.text = UserDefaults.standard.string(forKey: "savedLink") ?? ((Bundle.main.infoDictionary!["site_link"] as? String) ?? "http://")
-            }
-            
-            alertController.addAction(UIAlertAction(title: NSLocalizedString("Load", comment: ""), style: .default, handler: { (UIAlertAction) in
-                if let textField = alertController.textFields?[0] {
-                    UserDefaults.standard.set(textField.text?.trimmingCharacters(in: .whitespaces) ?? "", forKey: "savedLink")
-                    self.loadLink(textField.text?.trimmingCharacters(in: .whitespaces) ?? "")
-                }
-            }))
-            
-            alertController.addAction(UIAlertAction(title: NSLocalizedString("cancel", comment: ""), style: .cancel, handler: nil))
-            
-            self.present(alertController, animated: true, completion: nil)
+            self.loadLink()
         }
     }
     
@@ -200,7 +159,7 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
         
         if navigationAction.navigationType == .linkActivated  {
             // let hostLink = (Bundle.main.infoDictionary!["host_link"] as? String) ?? ""
-            let hostLink = UserDefaults.standard.string(forKey: "savedLink") ?? ((Bundle.main.infoDictionary!["host_link"] as? String) ?? "")
+            let hostLink = ((Bundle.main.infoDictionary!["host_link"] as? String) ?? "")
             
             if let url = navigationAction.request.url,
                //let host = url.host, !host.hasPrefix(hostLink){
@@ -239,30 +198,12 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
                 UIApplication.shared.applicationIconBadgeNumber = 0
             }
             
-            if let link = notification.object! as? String {
+            if webView != nil, let link = notification.object! as? String {
                 if let url = URL(string: link){
                     let request = URLRequest(url: url, cachePolicy: (NetworkReachabilityManager()!.isReachable ? .reloadRevalidatingCacheData : .returnCacheDataElseLoad))
                     webView.load(request)
                 }
             }
-        }
-    }
-    
-    
-    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-        if motion == .motionShake {
-            print("Why are you shaking me?")
-            
-            let pasteboard = UIPasteboard.general
-            pasteboard.string = "Device token: \(appDelegate.tokenString)"
-            self.showToastMsg(msgTxt: "Device token: \(appDelegate.tokenString)")
-            
-            //if(UIDevice.current.name.elementsEqual("MK iPhone 7+")){
-            
-            appDelegate.showAlert(vc: self, titleTxt: "Need to clear the Cache files ?", msgTxt: "", btnTxt: "Yes", withCancelButton: true) { (_) in
-                self.deleteCache(true)
-            }
-            //}
         }
     }
     
