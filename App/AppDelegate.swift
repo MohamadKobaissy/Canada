@@ -67,6 +67,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate  { //, GIDSignInDelegate
     }
     
     
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+        guard let url = userActivity.webpageURL else { return false }
+        print("application continue webpageURL:",url.absoluteString)
+        NotificationCenter.default.post(name: Notification.Name("NotificationReceived"), object: url.absoluteString)
+        return true
+    }
+    
+    
     func showAlert(vc: UIViewController?, titleTxt: String, msgTxt: String, btnTxt: String){
         appDelegate.showAlert(vc: vc, titleTxt: titleTxt, msgTxt: msgTxt, btnTxt: btnTxt) { (isDone) in
         }

@@ -189,11 +189,6 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
-		<key>Pods-CanadaHome.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>Pods-HriseFinder.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -264,11 +259,6 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
-		<key>Toast-Swift.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
 		<key>Whisper-iOS10.0.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -308,6 +298,11 @@
 			<true/>
 		</dict>
 		<key>067FC29313308D3B59A88C3868A1EBDD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09374FFC481E9DD5B8DA64CA9949E341</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -368,6 +363,11 @@
 			<true/>
 		</dict>
 		<key>3F6EBEE64D06BFC30FB5DF93053F4F23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4119F0DD34EF968F2CB2DEA522453467</key>
 		<dict>
 			<key>primary</key>
 			<true/>

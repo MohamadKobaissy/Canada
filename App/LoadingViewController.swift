@@ -155,7 +155,7 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
     
     
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
-        print("navigationAction.request.url: ", navigationAction.request.url?.absoluteString)
+        print("navigationAction.request.url: ", navigationAction.request.url?.absoluteString ?? "nil")
         
         if navigationAction.navigationType == .linkActivated  {
             // let hostLink = (Bundle.main.infoDictionary!["host_link"] as? String) ?? ""
