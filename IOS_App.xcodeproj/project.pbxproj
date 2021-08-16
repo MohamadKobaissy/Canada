@@ -8,6 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		2F176BC626599219003A2545 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F176BC526599219003A2545 /* DetailsViewController.swift */; };
+		2F1C55FC26CB21190046B204 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8FE38025734FDC00889D91 /* NetworkManager.swift */; };
+		2F1C55FD26CB21190046B204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243ED5E1FD15DDF00FDECAF /* AppDelegate.swift */; };
+		2F1C55FE26CB21190046B204 /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EF05D20847EFF008F6272 /* DefaultViewController.swift */; };
+		2F1C55FF26CB21190046B204 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F176BC526599219003A2545 /* DetailsViewController.swift */; };
+		2F1C560026CB21190046B204 /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225AB9C01FDE997100175940 /* Localizer.swift */; };
+		2F1C560126CB21190046B204 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7CC25325782C3300FF3772 /* NotificationManager.swift */; };
+		2F1C560226CB21190046B204 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231E0F0205F9F870023F72C /* Constants.swift */; };
+		2F1C560326CB21190046B204 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228738012004EB70000AA626 /* LoadingViewController.swift */; };
+		2F1C560526CB21190046B204 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9823F3FE21FB447C006233A4 /* AdSupport.framework */; };
+		2F1C560626CB21190046B204 /* Pods_CanadaHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D215481807CDA2DCBA6E7DD9 /* Pods_CanadaHome.framework */; };
+		2F1C560A26CB21190046B204 /* Myriad Pro Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FB6AC352302BE0B006550EC /* Myriad Pro Semibold.ttf */; };
+		2F1C560B26CB21190046B204 /* DroidKufiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22CD44872087668700765728 /* DroidKufiBold.ttf */; };
+		2F1C560C26CB21190046B204 /* DroidKufiRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22CD44882087668700765728 /* DroidKufiRegular.ttf */; };
+		2F1C560D26CB21190046B204 /* CanadaHome_LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4978AD24A69CE700DCADD4 /* CanadaHome_LaunchScreen.storyboard */; };
+		2F1C560E26CB21190046B204 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225AB9BC1FDE7A4C00175940 /* Localizable.strings */; };
+		2F1C560F26CB21190046B204 /* Myriad Pro Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FB6AC4E2302BE0C006550EC /* Myriad Pro Regular.ttf */; };
+		2F1C561026CB21190046B204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2243ED621FD15DDF00FDECAF /* Main.storyboard */; };
+		2F1C561126CB21190046B204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC87FB2225107FC00D6BC7D /* Assets.xcassets */; };
+		2F1C563226CB246C0046B204 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C563126CB246C0046B204 /* GoogleService-Info.plist */; };
 		2F7CC26D25782C3300FF3772 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7CC25325782C3300FF3772 /* NotificationManager.swift */; };
 		2F8FE3A925734FDD00889D91 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8FE38025734FDC00889D91 /* NetworkManager.swift */; };
 		2F95D4D6255C4050007CAD4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243ED5E1FD15DDF00FDECAF /* AppDelegate.swift */; };
@@ -137,6 +156,9 @@
 		22CD44882087668700765728 /* DroidKufiRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidKufiRegular.ttf; sourceTree = "<group>"; };
 		2B53EFAA125B27945686DE4F /* Pods-Makkah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makkah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makkah/Pods-Makkah.release.xcconfig"; sourceTree = "<group>"; };
 		2F176BC526599219003A2545 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		2F1C561726CB21190046B204 /* Calgaryi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calgaryi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1C562526CB21190046B204 /* CanadaHome copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CanadaHome copy-Info.plist"; path = "/Users/kobaissy/Documents/IOS APP/Hashem Fawaz/canada_home/CanadaHome copy-Info.plist"; sourceTree = "<absolute>"; };
+		2F1C563126CB246C0046B204 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2F4978AD24A69CE700DCADD4 /* CanadaHome_LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CanadaHome_LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F7CC25325782C3300FF3772 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		2F8FE38025734FDC00889D91 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -171,6 +193,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F1C560426CB21190046B204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1C560526CB21190046B204 /* AdSupport.framework in Frameworks */,
+				2F1C560626CB21190046B204 /* Pods_CanadaHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F95D4DE255C4050007CAD4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +261,8 @@
 				058AA031C71B6783E060CCF8 /* Pods */,
 				F40CBF5DC82089677CADA0B8 /* Frameworks */,
 				2F95D4F6255C4050007CAD4E /* Canada Home.app */,
+				2F1C561726CB21190046B204 /* Calgaryi.app */,
+				2F1C562526CB21190046B204 /* CanadaHome copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -270,6 +303,14 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2F1C562E26CB24190046B204 /* Calgary */ = {
+			isa = PBXGroup;
+			children = (
+				2F1C563126CB246C0046B204 /* GoogleService-Info.plist */,
+			);
+			path = Calgary;
+			sourceTree = "<group>";
+		};
 		2F49789C24A698E700DCADD4 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				2FF5C415264E812A00CFBEF8 /* CanadaHome */,
+				2F1C562E26CB24190046B204 /* Calgary */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -328,6 +370,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2F1C55F926CB21190046B204 /* Calgaryi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1C561426CB21190046B204 /* Build configuration list for PBXNativeTarget "Calgaryi" */;
+			buildPhases = (
+				2F1C55FA26CB21190046B204 /* [CP] Check Pods Manifest.lock */,
+				2F1C55FB26CB21190046B204 /* Sources */,
+				2F1C560426CB21190046B204 /* Frameworks */,
+				2F1C560726CB21190046B204 /* ShellScript */,
+				2F1C560826CB21190046B204 /* Resources */,
+				2F1C561226CB21190046B204 /* [CP] Embed Pods Frameworks */,
+				2F1C561326CB21190046B204 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calgaryi;
+			productName = UNDP;
+			productReference = 2F1C561726CB21190046B204 /* Calgaryi.app */;
+			productType = "com.apple.product-type.application";
+		};
 		2F95D4D2255C4050007CAD4E /* CanadaHome */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F95D4F3255C4050007CAD4E /* Build configuration list for PBXNativeTarget "CanadaHome" */;
@@ -359,6 +422,9 @@
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "IDS Mac";
 				TargetAttributes = {
+					2F1C55F926CB21190046B204 = {
+						ProvisioningStyle = Automatic;
+					};
 					2F95D4D2255C4050007CAD4E = {
 						ProvisioningStyle = Automatic;
 					};
@@ -385,6 +451,7 @@
 			projectRoot = "";
 			targets = (
 				2F95D4D2255C4050007CAD4E /* CanadaHome */,
+				2F1C55F926CB21190046B204 /* Calgaryi */,
 			);
 		};
 /* End PBXProject section */
@@ -484,6 +551,22 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2F1C560826CB21190046B204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1C560A26CB21190046B204 /* Myriad Pro Semibold.ttf in Resources */,
+				2F1C560B26CB21190046B204 /* DroidKufiBold.ttf in Resources */,
+				2F1C560C26CB21190046B204 /* DroidKufiRegular.ttf in Resources */,
+				2F1C560D26CB21190046B204 /* CanadaHome_LaunchScreen.storyboard in Resources */,
+				2F1C560E26CB21190046B204 /* Localizable.strings in Resources */,
+				2F1C560F26CB21190046B204 /* Myriad Pro Regular.ttf in Resources */,
+				2F1C563226CB246C0046B204 /* GoogleService-Info.plist in Resources */,
+				2F1C561026CB21190046B204 /* Main.storyboard in Resources */,
+				2F1C561126CB21190046B204 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F95D4E2255C4050007CAD4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -503,6 +586,90 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2F1C55FA26CB21190046B204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CanadaHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F1C560726CB21190046B204 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which iblinter >/dev/null; then\niblinter lint\nelse\necho \"warning: IBLinter not installed, download from https://github.com/IBDecodable/IBLinter\"\nfi\n";
+		};
+		2F1C561226CB21190046B204 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstanceID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F1C561326CB21190046B204 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n\"${PODS_ROOT}/FirebaseCrashlytics/upload-symbols\" -gsp \"${PROJECT_DIR}/Firebase/Calgary/GoogleService-Info.plist\" -p ios \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+		};
 		2F95D4E1255C4050007CAD4E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -590,6 +757,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F1C55FB26CB21190046B204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1C55FC26CB21190046B204 /* NetworkManager.swift in Sources */,
+				2F1C55FD26CB21190046B204 /* AppDelegate.swift in Sources */,
+				2F1C55FE26CB21190046B204 /* DefaultViewController.swift in Sources */,
+				2F1C55FF26CB21190046B204 /* DetailsViewController.swift in Sources */,
+				2F1C560026CB21190046B204 /* Localizer.swift in Sources */,
+				2F1C560126CB21190046B204 /* NotificationManager.swift in Sources */,
+				2F1C560226CB21190046B204 /* Constants.swift in Sources */,
+				2F1C560326CB21190046B204 /* LoadingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F95D4D4255C4050007CAD4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -744,6 +926,65 @@
 			};
 			name = Release;
 		};
+		2F1C561526CB21190046B204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1451DE4504361935E40A5D7 /* Pods-CanadaHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Calgary_AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CODE_SIGN_ENTITLEMENTS = IOS_App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 9ZUL79PJVG;
+				INFOPLIST_FILE = "CanadaHome copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingo.calgary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/IDS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F1C561626CB21190046B204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636D9FB0595CB374EF845171 /* Pods-CanadaHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = Calgary_AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CODE_SIGN_ENTITLEMENTS = IOS_App.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 9ZUL79PJVG;
+				INFOPLIST_FILE = "CanadaHome copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingo.calgary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/IDS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2F95D4F4255C4050007CAD4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1451DE4504361935E40A5D7 /* Pods-CanadaHome.debug.xcconfig */;
@@ -755,7 +996,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = FK7GST2N29;
@@ -785,7 +1026,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = FK7GST2N29;
 				INFOPLIST_FILE = "$(SRCROOT)/Profile/CanadaHome_Info.plist";
@@ -811,6 +1052,15 @@
 			buildConfigurations = (
 				2243ED6B1FD15DDF00FDECAF /* Debug */,
 				2243ED6C1FD15DDF00FDECAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1C561426CB21190046B204 /* Build configuration list for PBXNativeTarget "Calgaryi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1C561526CB21190046B204 /* Debug */,
+				2F1C561626CB21190046B204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
