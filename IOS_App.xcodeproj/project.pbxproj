@@ -43,6 +43,14 @@
 		2F95D4ED255C4050007CAD4E /* Myriad Pro Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FB6AC4E2302BE0C006550EC /* Myriad Pro Regular.ttf */; };
 		2F95D4EF255C4050007CAD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2243ED621FD15DDF00FDECAF /* Main.storyboard */; };
 		2F95D4F0255C4050007CAD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC87FB2225107FC00D6BC7D /* Assets.xcassets */; };
+		2FAE1B0126DC2A5F00311A35 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE1AE526DC2A5F00311A35 /* Category.swift */; };
+		2FAE1B0226DC2A5F00311A35 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE1AE526DC2A5F00311A35 /* Category.swift */; };
+		2FAE1B0626DC2A8000311A35 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE1B0526DC2A8000311A35 /* API.swift */; };
+		2FAE1B0726DC2A8000311A35 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE1B0526DC2A8000311A35 /* API.swift */; };
+		2FAE1B3D26DC39C100311A35 /* DrawerHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FAE1B2226DC39C100311A35 /* DrawerHeaderTableViewCell.xib */; };
+		2FAE1B3E26DC39C100311A35 /* DrawerHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FAE1B2226DC39C100311A35 /* DrawerHeaderTableViewCell.xib */; };
+		2FAE1B3F26DC39C100311A35 /* DrawerHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE1B3C26DC39C100311A35 /* DrawerHeaderTableViewCell.swift */; };
+		2FAE1B4026DC39C100311A35 /* DrawerHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE1B3C26DC39C100311A35 /* DrawerHeaderTableViewCell.swift */; };
 		2FF53D4226DAE56000AB9174 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D4126DAE56000AB9174 /* ContactUsViewController.swift */; };
 		2FF53D4326DAE56000AB9174 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D4126DAE56000AB9174 /* ContactUsViewController.swift */; };
 		2FF53D4726DAE58C00AB9174 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D4626DAE58B00AB9174 /* TabBarController.swift */; };
@@ -144,6 +152,48 @@
 			remoteGlobalIDString = 5333E21F0D111BB6E6E804803F200122;
 			remoteInfo = PromisesObjC;
 		};
+		2FAE1AF926DC2A5F00311A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8E950A16D00F649C54FFB30F81D7842;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		2FAE1AFB26DC2A5F00311A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9258ECC23A4C8B0274C7A6DF69DDFE95;
+			remoteInfo = KRActivityIndicatorView;
+		};
+		2FAE1AFD26DC2A5F00311A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C33CB84138510317C9CFF8E19C47C23;
+			remoteInfo = KRProgressHUD;
+		};
+		2FAE1AFF26DC2A5F00311A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F1F18E7C8E96644BE78FB23D91643715;
+			remoteInfo = "Pods-Calgaryi";
+		};
+		2FAE1B3826DC39C100311A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8498160B5D29EF2745E4D41F2D971B5;
+			remoteInfo = AlamofireImage;
+		};
+		2FAE1B3A26DC39C100311A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E23C076BA70925415F490FEDB215DA92;
+			remoteInfo = SwiftyJSON;
+		};
 		2FF53D7C26DB09A300AB9174 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
@@ -189,6 +239,10 @@
 		2F8FE38025734FDC00889D91 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2F95D4F6255C4050007CAD4E /* Canada Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Canada Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F95D4F7255C4051007CAD4E /* CanadaHome_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CanadaHome_Info.plist; sourceTree = "<group>"; };
+		2FAE1AE526DC2A5F00311A35 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2FAE1B0526DC2A8000311A35 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2FAE1B2226DC39C100311A35 /* DrawerHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		2FAE1B3C26DC39C100311A35 /* DrawerHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		2FB6AC352302BE0B006550EC /* Myriad Pro Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad Pro Semibold.ttf"; sourceTree = "<group>"; };
 		2FB6AC4E2302BE0C006550EC /* Myriad Pro Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad Pro Regular.ttf"; sourceTree = "<group>"; };
 		2FC87FB2225107FC00D6BC7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -303,6 +357,7 @@
 		2274E0301FD16E6C009CB04D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2FAE1B0526DC2A8000311A35 /* API.swift */,
 				2F7CC25325782C3300FF3772 /* NotificationManager.swift */,
 				2231E0F0205F9F870023F72C /* Constants.swift */,
 				2FF53D4B26DAE60500AB9174 /* Extension.swift */,
@@ -352,6 +407,7 @@
 			isa = PBXGroup;
 			children = (
 				2FF53D5126DAE63B00AB9174 /* Models.swift */,
+				2FAE1AE526DC2A5F00311A35 /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -362,6 +418,8 @@
 				2FF53D8026DB09CC00AB9174 /* DrawerMenuViewController.swift */,
 				2FF53D8226DB09CC00AB9174 /* DrawerTableViewCell.swift */,
 				2FF53D7E26DB09CC00AB9174 /* DrawerTableViewCell.xib */,
+				2FAE1B3C26DC39C100311A35 /* DrawerHeaderTableViewCell.swift */,
+				2FAE1B2226DC39C100311A35 /* DrawerHeaderTableViewCell.xib */,
 			);
 			path = Drawer;
 			sourceTree = "<group>";
@@ -387,6 +445,7 @@
 			isa = PBXGroup;
 			children = (
 				2F44B8B52576DDC600A7E9BE /* Alamofire.framework */,
+				2FAE1B3926DC39C100311A35 /* AlamofireImage.framework */,
 				2F44B8B72576DDC600A7E9BE /* FirebaseCore.framework */,
 				2F44B8B92576DDC600A7E9BE /* FirebaseCoreDiagnostics.framework */,
 				2F44B8BB2576DDC600A7E9BE /* FirebaseCrashlytics.framework */,
@@ -395,10 +454,15 @@
 				2F44B8C12576DDC600A7E9BE /* FirebaseMessaging.framework */,
 				2F44B8C32576DDC600A7E9BE /* GoogleDataTransport.framework */,
 				2F44B8C52576DDC600A7E9BE /* GoogleUtilities.framework */,
+				2FAE1AFA26DC2A5F00311A35 /* IQKeyboardManagerSwift.framework */,
+				2FAE1AFC26DC2A5F00311A35 /* KRActivityIndicatorView.framework */,
+				2FAE1AFE26DC2A5F00311A35 /* KRProgressHUD.framework */,
 				2FF53D7D26DB09A300AB9174 /* KYDrawerController.framework */,
 				2F44B8CD2576DDC600A7E9BE /* nanopb.framework */,
+				2FAE1B0026DC2A5F00311A35 /* Pods_Calgaryi.framework */,
 				2FF5C40F264E802200CFBEF8 /* Pods_CanadaHome.framework */,
 				2F44B8CF2576DDC600A7E9BE /* FBLPromises.framework */,
+				2FAE1B3B26DC39C100311A35 /* SwiftyJSON.framework */,
 				2FF5C4AF264E906100CFBEF8 /* Toast_Swift.framework */,
 			);
 			name = Products;
@@ -582,6 +646,48 @@
 			remoteRef = 2F44B8CE2576DDC600A7E9BE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		2FAE1AFA26DC2A5F00311A35 /* IQKeyboardManagerSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IQKeyboardManagerSwift.framework;
+			remoteRef = 2FAE1AF926DC2A5F00311A35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2FAE1AFC26DC2A5F00311A35 /* KRActivityIndicatorView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KRActivityIndicatorView.framework;
+			remoteRef = 2FAE1AFB26DC2A5F00311A35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2FAE1AFE26DC2A5F00311A35 /* KRProgressHUD.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KRProgressHUD.framework;
+			remoteRef = 2FAE1AFD26DC2A5F00311A35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2FAE1B0026DC2A5F00311A35 /* Pods_Calgaryi.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Calgaryi.framework;
+			remoteRef = 2FAE1AFF26DC2A5F00311A35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2FAE1B3926DC39C100311A35 /* AlamofireImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AlamofireImage.framework;
+			remoteRef = 2FAE1B3826DC39C100311A35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2FAE1B3B26DC39C100311A35 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 2FAE1B3A26DC39C100311A35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		2FF53D7D26DB09A300AB9174 /* KYDrawerController.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -613,6 +719,7 @@
 				2F1C560A26CB21190046B204 /* Myriad Pro Semibold.ttf in Resources */,
 				2F1C560B26CB21190046B204 /* DroidKufiBold.ttf in Resources */,
 				2FF53D8426DB09CC00AB9174 /* DrawerTableViewCell.xib in Resources */,
+				2FAE1B3E26DC39C100311A35 /* DrawerHeaderTableViewCell.xib in Resources */,
 				2F1C560C26CB21190046B204 /* DroidKufiRegular.ttf in Resources */,
 				2FF53D9326DB18A700AB9174 /* GilroyBold.otf in Resources */,
 				2F1C560D26CB21190046B204 /* CanadaHome_LaunchScreen.storyboard in Resources */,
@@ -631,6 +738,7 @@
 				2FF5C41A264E815000CFBEF8 /* GoogleService-Info.plist in Resources */,
 				2F95D4E3255C4050007CAD4E /* Myriad Pro Semibold.ttf in Resources */,
 				2FF53D8326DB09CC00AB9174 /* DrawerTableViewCell.xib in Resources */,
+				2FAE1B3D26DC39C100311A35 /* DrawerHeaderTableViewCell.xib in Resources */,
 				2F95D4E5255C4050007CAD4E /* DroidKufiBold.ttf in Resources */,
 				2FF53D9226DB18A700AB9174 /* GilroyBold.otf in Resources */,
 				2F95D4E8255C4050007CAD4E /* DroidKufiRegular.ttf in Resources */,
@@ -729,6 +837,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Calgaryi/Pods-Calgaryi-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
@@ -742,12 +851,14 @@
 				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
@@ -761,6 +872,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYDrawerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -795,6 +907,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
@@ -808,12 +921,14 @@
 				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
@@ -827,6 +942,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYDrawerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -849,13 +965,16 @@
 				2FF53D4826DAE58C00AB9174 /* TabBarController.swift in Sources */,
 				2FF53D4D26DAE60600AB9174 /* Extension.swift in Sources */,
 				2F1C55FF26CB21190046B204 /* DetailsViewController.swift in Sources */,
+				2FAE1B0226DC2A5F00311A35 /* Category.swift in Sources */,
 				2F1C560026CB21190046B204 /* Localizer.swift in Sources */,
 				2F1C560126CB21190046B204 /* NotificationManager.swift in Sources */,
 				2F1C560226CB21190046B204 /* Constants.swift in Sources */,
 				2FF53D8826DB09CC00AB9174 /* DrawerMenuViewController.swift in Sources */,
 				2FF53D8C26DB09CC00AB9174 /* DrawerTableViewCell.swift in Sources */,
+				2FAE1B4026DC39C100311A35 /* DrawerHeaderTableViewCell.swift in Sources */,
 				2F1C560326CB21190046B204 /* LoadingViewController.swift in Sources */,
 				2FF53D5826DAE9D000AB9174 /* HomeViewController.swift in Sources */,
+				2FAE1B0726DC2A8000311A35 /* API.swift in Sources */,
 				2FF53D4326DAE56000AB9174 /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -871,13 +990,16 @@
 				2FF53D4726DAE58C00AB9174 /* TabBarController.swift in Sources */,
 				2FF53D4C26DAE60600AB9174 /* Extension.swift in Sources */,
 				2F176BC626599219003A2545 /* DetailsViewController.swift in Sources */,
+				2FAE1B0126DC2A5F00311A35 /* Category.swift in Sources */,
 				2F95D4D8255C4050007CAD4E /* Localizer.swift in Sources */,
 				2F7CC26D25782C3300FF3772 /* NotificationManager.swift in Sources */,
 				2F95D4DB255C4050007CAD4E /* Constants.swift in Sources */,
 				2FF53D8726DB09CC00AB9174 /* DrawerMenuViewController.swift in Sources */,
 				2FF53D8B26DB09CC00AB9174 /* DrawerTableViewCell.swift in Sources */,
+				2FAE1B3F26DC39C100311A35 /* DrawerHeaderTableViewCell.swift in Sources */,
 				2F95D4DC255C4050007CAD4E /* LoadingViewController.swift in Sources */,
 				2FF53D5726DAE9D000AB9174 /* HomeViewController.swift in Sources */,
+				2FAE1B0626DC2A8000311A35 /* API.swift in Sources */,
 				2FF53D4226DAE56000AB9174 /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

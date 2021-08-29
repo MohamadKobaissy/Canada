@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
   - Firebase/CoreOnly (7.11.0):
     - FirebaseCore (= 7.11.0)
   - Firebase/Crashlytics (7.11.0):
@@ -73,15 +75,18 @@ PODS:
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
   - PromisesObjC (1.2.12)
+  - SwiftyJSON (5.0.1)
   - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
-  - Alamofire
+  - Alamofire (~> 4.9)
+  - AlamofireImage
   - Firebase/Crashlytics
   - Firebase/Messaging
   - IQKeyboardManagerSwift
   - KRProgressHUD
   - KYDrawerController
+  - SwiftyJSON
   - Toast-Swift
 
 SPEC REPOS:
@@ -101,12 +106,15 @@ SPEC REPOS:
     - PromisesObjC
     - Toast-Swift
   trunk:
+    - AlamofireImage
     - IQKeyboardManagerSwift
     - KRActivityIndicatorView
     - KRProgressHUD
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   Firebase: c121feb35e4126c0b355e3313fa9b487d47319fd
   FirebaseCore: 907447d8917a4d3eb0cce2829c5a0ad21d90b432
   FirebaseCoreDiagnostics: 68ad972f99206cef818230f3f3179d52ccfb7f8c
@@ -122,8 +130,9 @@ SPEC CHECKSUMS:
   KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 53e391ded16b5ae76f20ca4bd96454b0e22222b9
+PODFILE CHECKSUM: a2d6611f10fb338f62803e1f71c52c6c9a5918a5
 
 COCOAPODS: 1.10.1

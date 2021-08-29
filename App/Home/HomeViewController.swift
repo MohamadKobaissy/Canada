@@ -16,6 +16,11 @@ class HomeViewController: DefaultViewController {
         
         // self.addDrawerBtn()
         
+        
+        appDelegate.topNavHeight = (self.navigationController?.navigationBar.frame.height ?? 0.0)
+        if #available(iOS 13.0, *) {
+            appDelegate.topNavHeight += (view.window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0.0)
+        }
     }
-
+    
 }

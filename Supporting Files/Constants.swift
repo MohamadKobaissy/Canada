@@ -32,76 +32,10 @@ enum ErrorCodes {
 
 
 enum Webservice {
-    //static let baseUrl = "https://turkispot.com/buy/"
-    static let baseUrl = "https://tyqtaq.com/"
-    
-    //https://turkispot.com/buy/api.php?class=Section&function=get_main_section
-    
+    static let baseUrl = "https://inoyadi.com/shca/"
     static let url = baseUrl + "api.php?"
     
-    static let get_all_section = item(key: "01",value: url + "class=Section&function=get_all_section")
-    static let get_main_section = item(key: "02",value: url + "class=Section&function=get_main_section")
-    static let get_child_section = item(key: "03",value: url + "class=Section&function=get_child_section")
-    static let get_all_childs = item(key: "04",value: url + "class=Section&function=get_all_childs")
-    static let get_Category_Words = item(key: "05",value: url + "class=Section&function=getwords")
-    
-    static let add_product = item(key: "06",value: url + "class=Item&function=add_item")
-    static let edit_item = item(key: "07",value: url + "class=Item&function=edit_item")
-    static let delete_item_img = item(key: "07",value: url + "class=Picture&function=delete_image&id=")
-    
-    static let get_my_items = item(key: "08",value: url + "class=Item&function=myitems&publisher_id=")
-    static let deleteItem = item(key: "09",value: url + "class=Item&function=delete_item&id=")
-    
-    static let setFavItem = item(key: "10",value: url + "class=Item&function=fav_or_reopot")
-    static let deleteFavItem = item(key: "11",value: url + "class=Item&function=delete_fav_or_reports")
-    static let get_my_favorites = item(key: "12",value: url + "class=Item&function=myfavorites&publisher_id=")
-    
-    static let sendChat = item(key: "13",value: url + "class=Message&function=send_message")
-    static let getChat = item(key: "13",value: url + "class=Message&function=recur_commnet")
-    static let getMyChats = item(key: "13",value: url + "class=Message&function=mychats")
-    
-    static let get_items_by_section = item(key: "16",value: url + "class=Item&function=get_items_by_section")
-    static let get_item_details = item(key: "15",value: url + "class=Item&function=get_item")
-    static let getSponserd = item(key: "16",value: url + "class=Item&function=getsponserd")
-    static let searchItems = item(key: "17",value: url + "class=Item&function=searh")
-    static let get_items_by_publishers = item(key: "16",value: url + "class=Item&function=get_items_by_publishers")
-    
-    static let login_user = item(key: "18",value: url + "class=Publisher&function=login")
-    static let login_google = item(key: "19",value: url + "class=Publisher&function=socail_login&type=gmail")
-    static let login_facebook = item(key: "20",value: url + "class=Publisher&function=socail_login&type=facebook")
-    static let login_apple = item(key: "20",value: url + "class=Publisher&function=socail_login&type=apple")
-    
-    static let register_user = item(key: "18",value: url + "class=Publisher&function=creat_user")
-    static let register_google = item(key: "19",value: url + "class=Publisher&function=login")
-    static let register_facebook = item(key: "20",value: url + "class=Publisher&function=login")
-    static let register_apple = item(key: "21",value: url + "class=Publisher&function=login")
-    
-    static let get_publisher = item(key: "22-1",value: url + "class=Publisher&function=get_publisher&id=")
-    static let edit_publisher = item(key: "22-2",value: url + "class=Publisher&function=publisher_edit")
-    
-    static let boost_post = item(key: "23",value: baseUrl + "packages.php?id=")
-    
-    static let unblocked_user = item(key: "23",value: url + "class=Message&function=unblocked")
-    static let blocked_user = item(key: "23",value: url + "class=Message&function=blocked")
-    
-    
-    //https://tyqtaq.com/api.php?class=Publisher&function=get_publisher&id=40
-    //https://tyqtaq.com/api.php?class=Publisher&function=edit_publisher&id=40 //publisher_edit
-    
-    
-    //static let get_files_by_place_id = item(key: "03",value: url + "class=File&function=get_files_by_place_id")
-    static let get_all_country = item(key: "04",value: url + "class=Country&function=get_all_country")
-    static let get_country_city = item(key: "05",value: url + "class=City&function=get_all_cities")
-    static let get_place_Details = item(key: "06",value: url + "class=Place&function=get_place")
-    static let get_Slider_data = item(key: "07",value: url + "class=Adver&function=get_all_advers")
-    //static let setInterseted = item(key: "08",value: url + "class=DevicePlace&function=interseted")
-    //static let setNotInterseted = item(key: "09",value: url + "class=DevicePlace&function=delete_device")
-    //static let getPlaceComment = item(key: "10",value: url + "class=Comment&function=get_comment_place")
-    //static let sendComment = item(key: "11",value: url + "function=creat_comment&class=Comment")
-    static let searchPlace = item(key: "12",value: url + "class=Place&function=get_by_words")
-    //static let getShopingPlaces = item(key: "13",value: url + "class=Place&function=get_places_shoping")
-    //static let placeDetailsWebView = item(key: "14",value: baseUrl + "webview.php?")
-    
+    static let get_category = item(key: "01",value: url + "class=category&function=get_category")
     
     static let add_device = item(key: "00",value: url + "class=Device&function=creat_token")
 }

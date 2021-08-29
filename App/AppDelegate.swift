@@ -36,6 +36,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate  { //, GIDSignInDelegate
     
     //var user: GIDGoogleUser!
     
+    var topNavHeight: CGFloat = 10
+    var allCategory = [Category]()
+    
     var isUpdate = false
     var isUserLogin = false
     let isIpad = UIDevice.current.model.lowercased().contains("ipad")

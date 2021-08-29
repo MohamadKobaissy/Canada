@@ -108,9 +108,14 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
     
     
     func loadLink(_ link: String = ""){
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1){
+        api.GetCategory { (data) in
+            appDelegate.allCategory = data
             self.performSegue(withIdentifier: "showHome", sender: self)
         }
+        
+        //DispatchQueue.main.asyncAfter(deadline: .now() + 1){
+        //    self.performSegue(withIdentifier: "showHome", sender: self)
+        //}
         
         //    var linkStr = link
         //    if linkStr.isEmpty { linkStr = (Bundle.main.infoDictionary!["site_link"] as? String) ?? "" }
