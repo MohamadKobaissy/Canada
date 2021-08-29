@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 import AVFoundation
-//import IQKeyboardManagerSwift
+import IQKeyboardManagerSwift
 
 import Firebase
 import FirebaseMessaging
@@ -38,17 +38,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate  { //, GIDSignInDelegate
     
     var isUpdate = false
     var isUserLogin = false
-    
+    let isIpad = UIDevice.current.model.lowercased().contains("ipad")
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         setLanguage(lang: Language.EN, isRTL: false)
         
+        UILabel.appearance().font = getFont(size: 13)
+        UITextView.appearance().font = getFont(size: 13)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: getFont(size: 10)], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: getFont(size: 10)], for: .selected)
+        
+        
         // Language switch
         Localizer.doTheMagic()
         
         // IQKeyboardManager
-        // IQKeyboardManager.shared.enable = false
+        IQKeyboardManager.shared.enable = true
         
         // Use Firebase library to configure APIs
         FirebaseApp.configure()
@@ -160,3 +166,13 @@ extension AppDelegate {
         print("===> App delegate failed to register remote notification with error: \n \(error.localizedDescription)")
     }
 }
+
+
+
+
+//  for family in UIFont.familyNames {
+//      print("\(family)")
+//      for name in UIFont.fontNames(forFamilyName: family) {
+//          print("   \(name)")
+//      }
+//  }

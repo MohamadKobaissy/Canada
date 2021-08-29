@@ -214,23 +214,6 @@ extension Bundle {
             return (self.specialLocalizedStringForKey(key, value: value, table: tableName))
         }
     }
-    
-    var getVersionNumber: Double? {
-        let ver = infoDictionary?["CFBundleShortVersionString"] as? String
-        let numberFormatter = NumberFormatter()
-        numberFormatter.locale = NSLocale(localeIdentifier: "EN") as Locale
-        let number = numberFormatter.number(from: ver!)
-        let verNb = number?.doubleValue
-        return verNb
-    }
-    
-    var appDisplayName: String {
-        return (object(forInfoDictionaryKey: "CFBundleDisplayName") as? String) ?? ""
-    }
-    
-    var getBundleNumber: String {
-        return (infoDictionary?["CFBundleVersion"] as? String ?? "")
-    }
 }
  
 /// Exchange the implementation of two methods of the same Class

@@ -62,6 +62,11 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.4.0):
     - GoogleUtilities/Logger
+  - IQKeyboardManagerSwift (6.5.6)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
+  - KYDrawerController (2.1.0)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
     - nanopb/encode (= 2.30908.0)
@@ -74,10 +79,13 @@ DEPENDENCIES:
   - Alamofire
   - Firebase/Crashlytics
   - Firebase/Messaging
+  - IQKeyboardManagerSwift
+  - KRProgressHUD
+  - KYDrawerController
   - Toast-Swift
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - Firebase
     - FirebaseCore
@@ -88,9 +96,14 @@ SPEC REPOS:
     - FirebaseMessaging
     - GoogleDataTransport
     - GoogleUtilities
+    - KYDrawerController
     - nanopb
     - PromisesObjC
     - Toast-Swift
+  trunk:
+    - IQKeyboardManagerSwift
+    - KRActivityIndicatorView
+    - KRProgressHUD
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
@@ -103,10 +116,14 @@ SPEC CHECKSUMS:
   FirebaseMessaging: 163435fb6db065e3b6228f1e577b10ed2cc506d2
   GoogleDataTransport: cd9db2180fcecd8da1b561aea31e3e56cf834aa7
   GoogleUtilities: 284cddc7fffc14ae1907efb6f78ab95c1fccaedc
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
+  KYDrawerController: baad0e63b09c0cb564bd48f0f7f70f45d9176ebc
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 67b073da01cf3828862cb9e257b2c6b70f18b7e1
+PODFILE CHECKSUM: 53e391ded16b5ae76f20ca4bd96454b0e22222b9
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.10.1

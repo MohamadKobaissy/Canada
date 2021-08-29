@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18360502B5A5D9D9A9514471 /* Pods_Calgaryi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE8E8E133F7B9A7461D3110 /* Pods_Calgaryi.framework */; };
 		2F176BC626599219003A2545 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F176BC526599219003A2545 /* DetailsViewController.swift */; };
 		2F1C55FC26CB21190046B204 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8FE38025734FDC00889D91 /* NetworkManager.swift */; };
 		2F1C55FD26CB21190046B204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2243ED5E1FD15DDF00FDECAF /* AppDelegate.swift */; };
@@ -17,7 +18,6 @@
 		2F1C560226CB21190046B204 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2231E0F0205F9F870023F72C /* Constants.swift */; };
 		2F1C560326CB21190046B204 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228738012004EB70000AA626 /* LoadingViewController.swift */; };
 		2F1C560526CB21190046B204 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9823F3FE21FB447C006233A4 /* AdSupport.framework */; };
-		2F1C560626CB21190046B204 /* Pods_CanadaHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D215481807CDA2DCBA6E7DD9 /* Pods_CanadaHome.framework */; };
 		2F1C560A26CB21190046B204 /* Myriad Pro Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FB6AC352302BE0B006550EC /* Myriad Pro Semibold.ttf */; };
 		2F1C560B26CB21190046B204 /* DroidKufiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22CD44872087668700765728 /* DroidKufiBold.ttf */; };
 		2F1C560C26CB21190046B204 /* DroidKufiRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22CD44882087668700765728 /* DroidKufiRegular.ttf */; };
@@ -43,8 +43,27 @@
 		2F95D4ED255C4050007CAD4E /* Myriad Pro Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FB6AC4E2302BE0C006550EC /* Myriad Pro Regular.ttf */; };
 		2F95D4EF255C4050007CAD4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2243ED621FD15DDF00FDECAF /* Main.storyboard */; };
 		2F95D4F0255C4050007CAD4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC87FB2225107FC00D6BC7D /* Assets.xcassets */; };
+		2FF53D4226DAE56000AB9174 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D4126DAE56000AB9174 /* ContactUsViewController.swift */; };
+		2FF53D4326DAE56000AB9174 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D4126DAE56000AB9174 /* ContactUsViewController.swift */; };
+		2FF53D4726DAE58C00AB9174 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D4626DAE58B00AB9174 /* TabBarController.swift */; };
+		2FF53D4826DAE58C00AB9174 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D4626DAE58B00AB9174 /* TabBarController.swift */; };
+		2FF53D4C26DAE60600AB9174 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D4B26DAE60500AB9174 /* Extension.swift */; };
+		2FF53D4D26DAE60600AB9174 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D4B26DAE60500AB9174 /* Extension.swift */; };
+		2FF53D5226DAE63B00AB9174 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D5126DAE63B00AB9174 /* Models.swift */; };
+		2FF53D5326DAE63B00AB9174 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D5126DAE63B00AB9174 /* Models.swift */; };
+		2FF53D5726DAE9D000AB9174 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D5626DAE9D000AB9174 /* HomeViewController.swift */; };
+		2FF53D5826DAE9D000AB9174 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D5626DAE9D000AB9174 /* HomeViewController.swift */; };
+		2FF53D8326DB09CC00AB9174 /* DrawerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF53D7E26DB09CC00AB9174 /* DrawerTableViewCell.xib */; };
+		2FF53D8426DB09CC00AB9174 /* DrawerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF53D7E26DB09CC00AB9174 /* DrawerTableViewCell.xib */; };
+		2FF53D8726DB09CC00AB9174 /* DrawerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D8026DB09CC00AB9174 /* DrawerMenuViewController.swift */; };
+		2FF53D8826DB09CC00AB9174 /* DrawerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D8026DB09CC00AB9174 /* DrawerMenuViewController.swift */; };
+		2FF53D8B26DB09CC00AB9174 /* DrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D8226DB09CC00AB9174 /* DrawerTableViewCell.swift */; };
+		2FF53D8C26DB09CC00AB9174 /* DrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF53D8226DB09CC00AB9174 /* DrawerTableViewCell.swift */; };
+		2FF53D9226DB18A700AB9174 /* GilroyBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF53D9126DB18A700AB9174 /* GilroyBold.otf */; };
+		2FF53D9326DB18A700AB9174 /* GilroyBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FF53D9126DB18A700AB9174 /* GilroyBold.otf */; };
 		2FF5C41A264E815000CFBEF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FF5C419264E815000CFBEF8 /* GoogleService-Info.plist */; };
 		6F4757B32547C821BA7EE897 /* Pods_CanadaHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D215481807CDA2DCBA6E7DD9 /* Pods_CanadaHome.framework */; };
+		DAC99E84C676CC59C6A425F5 /* Pods_CanadaHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D215481807CDA2DCBA6E7DD9 /* Pods_CanadaHome.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +144,13 @@
 			remoteGlobalIDString = 5333E21F0D111BB6E6E804803F200122;
 			remoteInfo = PromisesObjC;
 		};
+		2FF53D7C26DB09A300AB9174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DDE758BC4511DF86CC4FF40B0AB2DB46;
+			remoteInfo = KYDrawerController;
+		};
 		2FF5C40E264E802200CFBEF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 987A9EC822159DAF00761269 /* Pods.xcodeproj */;
@@ -142,7 +168,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20C3D544277A21FB5BF6F0AF /* Pods-Al Watan SA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al Watan SA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Al Watan SA/Pods-Al Watan SA.debug.xcconfig"; sourceTree = "<group>"; };
+		07499915EC729AAFDC1CA861 /* Pods-Calgaryi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calgaryi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calgaryi/Pods-Calgaryi.release.xcconfig"; sourceTree = "<group>"; };
 		2231E0F0205F9F870023F72C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2243ED5E1FD15DDF00FDECAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2243ED631FD15DDF00FDECAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -154,7 +180,6 @@
 		228738012004EB70000AA626 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		22CD44872087668700765728 /* DroidKufiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidKufiBold.ttf; sourceTree = "<group>"; };
 		22CD44882087668700765728 /* DroidKufiRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidKufiRegular.ttf; sourceTree = "<group>"; };
-		2B53EFAA125B27945686DE4F /* Pods-Makkah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makkah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makkah/Pods-Makkah.release.xcconfig"; sourceTree = "<group>"; };
 		2F176BC526599219003A2545 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		2F1C561726CB21190046B204 /* Calgaryi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calgaryi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1C562526CB21190046B204 /* CanadaHome copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CanadaHome copy-Info.plist"; path = "/Users/kobaissy/Documents/IOS APP/Hashem Fawaz/canada_home/CanadaHome copy-Info.plist"; sourceTree = "<absolute>"; };
@@ -167,29 +192,24 @@
 		2FB6AC352302BE0B006550EC /* Myriad Pro Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad Pro Semibold.ttf"; sourceTree = "<group>"; };
 		2FB6AC4E2302BE0C006550EC /* Myriad Pro Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad Pro Regular.ttf"; sourceTree = "<group>"; };
 		2FC87FB2225107FC00D6BC7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FF53D4126DAE56000AB9174 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		2FF53D4626DAE58B00AB9174 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2FF53D4B26DAE60500AB9174 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		2FF53D5126DAE63B00AB9174 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2FF53D5626DAE9D000AB9174 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2FF53D7E26DB09CC00AB9174 /* DrawerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerTableViewCell.xib; sourceTree = "<group>"; };
+		2FF53D8026DB09CC00AB9174 /* DrawerMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuViewController.swift; sourceTree = "<group>"; };
+		2FF53D8226DB09CC00AB9174 /* DrawerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerTableViewCell.swift; sourceTree = "<group>"; };
+		2FF53D9126DB18A700AB9174 /* GilroyBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GilroyBold.otf; sourceTree = "<group>"; };
 		2FF5C419264E815000CFBEF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30DE6B07F660A23AF655855F /* Pods-CanadaHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome.debug.xcconfig"; sourceTree = "<group>"; };
+		332926D41A5501352879F94D /* Pods-CanadaHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome.release.xcconfig"; sourceTree = "<group>"; };
 		34204C7E219574000097597D /* IOS_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOS_App.entitlements; sourceTree = "<group>"; };
-		38F3E76F6A401E9E418FACBD /* Pods-Makkah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makkah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makkah/Pods-Makkah.debug.xcconfig"; sourceTree = "<group>"; };
-		3F73EF2B9B8324DAE5DDB7F8 /* Pods-Saudi__Gazette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saudi__Gazette.release.xcconfig"; path = "Pods/Target Support Files/Pods-Saudi__Gazette/Pods-Saudi__Gazette.release.xcconfig"; sourceTree = "<group>"; };
-		42D3E4C35E0F240481D48A13 /* Pods-Saudi_Gazette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saudi_Gazette.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Saudi_Gazette/Pods-Saudi_Gazette.debug.xcconfig"; sourceTree = "<group>"; };
-		4BB8D2F41FBDD5A5E4A9B905 /* Pods-AlRai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlRai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlRai/Pods-AlRai.debug.xcconfig"; sourceTree = "<group>"; };
-		551197F97E8617DD084826D5 /* Pods-AlWatan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlWatan.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlWatan/Pods-AlWatan.release.xcconfig"; sourceTree = "<group>"; };
-		58406AE705C96F83E6647B2B /* Pods-AlWatan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlWatan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlWatan/Pods-AlWatan.debug.xcconfig"; sourceTree = "<group>"; };
-		593B11328D167FBBAA5CBBB8 /* Pods-Al Watan SA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al Watan SA.release.xcconfig"; path = "Pods/Target Support Files/Pods-Al Watan SA/Pods-Al Watan SA.release.xcconfig"; sourceTree = "<group>"; };
-		5EB7816CEE3CDC374FE47A59 /* Pods-AlMadina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlMadina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlMadina/Pods-AlMadina.debug.xcconfig"; sourceTree = "<group>"; };
-		61162F7D4F909F54ED9B2C33 /* Pods-AlWatan News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlWatan News.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlWatan News/Pods-AlWatan News.release.xcconfig"; sourceTree = "<group>"; };
-		636D9FB0595CB374EF845171 /* Pods-CanadaHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome.release.xcconfig"; sourceTree = "<group>"; };
-		7496F59403E36A1063BDA5AA /* Pods-Saudi__Gazette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saudi__Gazette.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Saudi__Gazette/Pods-Saudi__Gazette.debug.xcconfig"; sourceTree = "<group>"; };
-		76246AD120BC5B60FA818240 /* Pods-AlMadina_Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlMadina_Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlMadina_Live/Pods-AlMadina_Live.release.xcconfig"; sourceTree = "<group>"; };
-		8BEE1625B282976AE1AF0A76 /* Pods-Saudi_Gazette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saudi_Gazette.release.xcconfig"; path = "Pods/Target Support Files/Pods-Saudi_Gazette/Pods-Saudi_Gazette.release.xcconfig"; sourceTree = "<group>"; };
-		94A1A69635FAE70D64DAE1A3 /* Pods-AlMadina_Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlMadina_Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlMadina_Live/Pods-AlMadina_Live.debug.xcconfig"; sourceTree = "<group>"; };
+		7F6361D9DDE239C926ED6394 /* Pods-Calgaryi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calgaryi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calgaryi/Pods-Calgaryi.debug.xcconfig"; sourceTree = "<group>"; };
 		9823F3FE21FB447C006233A4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		987A9EC822159DAF00761269 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
-		A16FD1672010F025544F780C /* Pods-AlMadina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlMadina.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlMadina/Pods-AlMadina.release.xcconfig"; sourceTree = "<group>"; };
-		AF37CBEC41BA695AB558DD45 /* Pods-AlWatan News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlWatan News.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlWatan News/Pods-AlWatan News.debug.xcconfig"; sourceTree = "<group>"; };
-		B1451DE4504361935E40A5D7 /* Pods-CanadaHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanadaHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome.debug.xcconfig"; sourceTree = "<group>"; };
 		D215481807CDA2DCBA6E7DD9 /* Pods_CanadaHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanadaHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F53F71E6FD94FB25D5921BA3 /* Pods-AlRai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlRai.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlRai/Pods-AlRai.release.xcconfig"; sourceTree = "<group>"; };
+		FEE8E8E133F7B9A7461D3110 /* Pods_Calgaryi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calgaryi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,7 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F1C560526CB21190046B204 /* AdSupport.framework in Frameworks */,
-				2F1C560626CB21190046B204 /* Pods_CanadaHome.framework in Frameworks */,
+				18360502B5A5D9D9A9514471 /* Pods_Calgaryi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +228,7 @@
 			files = (
 				2F95D4DF255C4050007CAD4E /* AdSupport.framework in Frameworks */,
 				6F4757B32547C821BA7EE897 /* Pods_CanadaHome.framework in Frameworks */,
+				DAC99E84C676CC59C6A425F5 /* Pods_CanadaHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,26 +238,10 @@
 		058AA031C71B6783E060CCF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5EB7816CEE3CDC374FE47A59 /* Pods-AlMadina.debug.xcconfig */,
-				A16FD1672010F025544F780C /* Pods-AlMadina.release.xcconfig */,
-				4BB8D2F41FBDD5A5E4A9B905 /* Pods-AlRai.debug.xcconfig */,
-				F53F71E6FD94FB25D5921BA3 /* Pods-AlRai.release.xcconfig */,
-				58406AE705C96F83E6647B2B /* Pods-AlWatan.debug.xcconfig */,
-				551197F97E8617DD084826D5 /* Pods-AlWatan.release.xcconfig */,
-				AF37CBEC41BA695AB558DD45 /* Pods-AlWatan News.debug.xcconfig */,
-				61162F7D4F909F54ED9B2C33 /* Pods-AlWatan News.release.xcconfig */,
-				38F3E76F6A401E9E418FACBD /* Pods-Makkah.debug.xcconfig */,
-				2B53EFAA125B27945686DE4F /* Pods-Makkah.release.xcconfig */,
-				94A1A69635FAE70D64DAE1A3 /* Pods-AlMadina_Live.debug.xcconfig */,
-				76246AD120BC5B60FA818240 /* Pods-AlMadina_Live.release.xcconfig */,
-				20C3D544277A21FB5BF6F0AF /* Pods-Al Watan SA.debug.xcconfig */,
-				593B11328D167FBBAA5CBBB8 /* Pods-Al Watan SA.release.xcconfig */,
-				7496F59403E36A1063BDA5AA /* Pods-Saudi__Gazette.debug.xcconfig */,
-				3F73EF2B9B8324DAE5DDB7F8 /* Pods-Saudi__Gazette.release.xcconfig */,
-				42D3E4C35E0F240481D48A13 /* Pods-Saudi_Gazette.debug.xcconfig */,
-				8BEE1625B282976AE1AF0A76 /* Pods-Saudi_Gazette.release.xcconfig */,
-				B1451DE4504361935E40A5D7 /* Pods-CanadaHome.debug.xcconfig */,
-				636D9FB0595CB374EF845171 /* Pods-CanadaHome.release.xcconfig */,
+				30DE6B07F660A23AF655855F /* Pods-CanadaHome.debug.xcconfig */,
+				332926D41A5501352879F94D /* Pods-CanadaHome.release.xcconfig */,
+				7F6361D9DDE239C926ED6394 /* Pods-Calgaryi.debug.xcconfig */,
+				07499915EC729AAFDC1CA861 /* Pods-Calgaryi.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -271,9 +276,13 @@
 			children = (
 				2243ED5E1FD15DDF00FDECAF /* AppDelegate.swift */,
 				2243ED621FD15DDF00FDECAF /* Main.storyboard */,
+				2FF53D4626DAE58B00AB9174 /* TabBarController.swift */,
 				2FC87FB2225107FC00D6BC7D /* Assets.xcassets */,
 				224EF05D20847EFF008F6272 /* DefaultViewController.swift */,
 				228738012004EB70000AA626 /* LoadingViewController.swift */,
+				2FF53D3F26DAE53E00AB9174 /* Home */,
+				2FF53D6D26DB09A300AB9174 /* Drawer */,
+				2FF53D4026DAE54A00AB9174 /* Contact-Us */,
 				2F176BC526599219003A2545 /* DetailsViewController.swift */,
 			);
 			path = App;
@@ -286,6 +295,7 @@
 				2FB6AC352302BE0B006550EC /* Myriad Pro Semibold.ttf */,
 				22CD44872087668700765728 /* DroidKufiBold.ttf */,
 				22CD44882087668700765728 /* DroidKufiRegular.ttf */,
+				2FF53D9126DB18A700AB9174 /* GilroyBold.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -295,8 +305,10 @@
 			children = (
 				2F7CC25325782C3300FF3772 /* NotificationManager.swift */,
 				2231E0F0205F9F870023F72C /* Constants.swift */,
+				2FF53D4B26DAE60500AB9174 /* Extension.swift */,
 				2274E0311FD16E8B009CB04D /* IDS-Bridging-Header.h */,
 				2F8FE38025734FDC00889D91 /* NetworkManager.swift */,
+				2FF53D5026DAE62800AB9174 /* Models */,
 				226249A81FE2A1E80031F24E /* Fonts */,
 				223C6601205BFD55009C312E /* Localize */,
 			);
@@ -318,6 +330,40 @@
 				2F95D4F7255C4051007CAD4E /* CanadaHome_Info.plist */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		2FF53D3F26DAE53E00AB9174 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2FF53D5626DAE9D000AB9174 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2FF53D4026DAE54A00AB9174 /* Contact-Us */ = {
+			isa = PBXGroup;
+			children = (
+				2FF53D4126DAE56000AB9174 /* ContactUsViewController.swift */,
+			);
+			path = "Contact-Us";
+			sourceTree = "<group>";
+		};
+		2FF53D5026DAE62800AB9174 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FF53D5126DAE63B00AB9174 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FF53D6D26DB09A300AB9174 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				2FF53D8026DB09CC00AB9174 /* DrawerMenuViewController.swift */,
+				2FF53D8226DB09CC00AB9174 /* DrawerTableViewCell.swift */,
+				2FF53D7E26DB09CC00AB9174 /* DrawerTableViewCell.xib */,
+			);
+			path = Drawer;
 			sourceTree = "<group>";
 		};
 		2FF5C414264E812000CFBEF8 /* Firebase */ = {
@@ -349,6 +395,7 @@
 				2F44B8C12576DDC600A7E9BE /* FirebaseMessaging.framework */,
 				2F44B8C32576DDC600A7E9BE /* GoogleDataTransport.framework */,
 				2F44B8C52576DDC600A7E9BE /* GoogleUtilities.framework */,
+				2FF53D7D26DB09A300AB9174 /* KYDrawerController.framework */,
 				2F44B8CD2576DDC600A7E9BE /* nanopb.framework */,
 				2FF5C40F264E802200CFBEF8 /* Pods_CanadaHome.framework */,
 				2F44B8CF2576DDC600A7E9BE /* FBLPromises.framework */,
@@ -363,6 +410,7 @@
 				987A9EC822159DAF00761269 /* Pods.xcodeproj */,
 				9823F3FE21FB447C006233A4 /* AdSupport.framework */,
 				D215481807CDA2DCBA6E7DD9 /* Pods_CanadaHome.framework */,
+				FEE8E8E133F7B9A7461D3110 /* Pods_Calgaryi.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -374,13 +422,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F1C561426CB21190046B204 /* Build configuration list for PBXNativeTarget "Calgaryi" */;
 			buildPhases = (
-				2F1C55FA26CB21190046B204 /* [CP] Check Pods Manifest.lock */,
+				32B3A166D874995188C7CE1A /* [CP] Check Pods Manifest.lock */,
 				2F1C55FB26CB21190046B204 /* Sources */,
 				2F1C560426CB21190046B204 /* Frameworks */,
 				2F1C560726CB21190046B204 /* ShellScript */,
 				2F1C560826CB21190046B204 /* Resources */,
-				2F1C561226CB21190046B204 /* [CP] Embed Pods Frameworks */,
 				2F1C561326CB21190046B204 /* ShellScript */,
+				6CDE0EA14F66F6462FB97FD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -534,6 +582,13 @@
 			remoteRef = 2F44B8CE2576DDC600A7E9BE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		2FF53D7D26DB09A300AB9174 /* KYDrawerController.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KYDrawerController.framework;
+			remoteRef = 2FF53D7C26DB09A300AB9174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		2FF5C40F264E802200CFBEF8 /* Pods_CanadaHome.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -557,7 +612,9 @@
 			files = (
 				2F1C560A26CB21190046B204 /* Myriad Pro Semibold.ttf in Resources */,
 				2F1C560B26CB21190046B204 /* DroidKufiBold.ttf in Resources */,
+				2FF53D8426DB09CC00AB9174 /* DrawerTableViewCell.xib in Resources */,
 				2F1C560C26CB21190046B204 /* DroidKufiRegular.ttf in Resources */,
+				2FF53D9326DB18A700AB9174 /* GilroyBold.otf in Resources */,
 				2F1C560D26CB21190046B204 /* CanadaHome_LaunchScreen.storyboard in Resources */,
 				2F1C560E26CB21190046B204 /* Localizable.strings in Resources */,
 				2F1C560F26CB21190046B204 /* Myriad Pro Regular.ttf in Resources */,
@@ -573,7 +630,9 @@
 			files = (
 				2FF5C41A264E815000CFBEF8 /* GoogleService-Info.plist in Resources */,
 				2F95D4E3255C4050007CAD4E /* Myriad Pro Semibold.ttf in Resources */,
+				2FF53D8326DB09CC00AB9174 /* DrawerTableViewCell.xib in Resources */,
 				2F95D4E5255C4050007CAD4E /* DroidKufiBold.ttf in Resources */,
+				2FF53D9226DB18A700AB9174 /* GilroyBold.otf in Resources */,
 				2F95D4E8255C4050007CAD4E /* DroidKufiRegular.ttf in Resources */,
 				2F95D4E9255C4050007CAD4E /* CanadaHome_LaunchScreen.storyboard in Resources */,
 				2F95D4EC255C4050007CAD4E /* Localizable.strings in Resources */,
@@ -586,24 +645,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2F1C55FA26CB21190046B204 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CanadaHome-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2F1C560726CB21190046B204 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -616,46 +657,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which iblinter >/dev/null; then\niblinter lint\nelse\necho \"warning: IBLinter not installed, download from https://github.com/IBDecodable/IBLinter\"\nfi\n";
-		};
-		2F1C561226CB21190046B204 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
-				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
-				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
-				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
-				"${BUILT_PRODUCTS_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework",
-				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstanceID.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		2F1C561326CB21190046B204 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -685,6 +686,7 @@
 		};
 		2FF5C3FF264E802200CFBEF8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 12;
 			files = (
 			);
@@ -694,7 +696,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n\"${PODS_ROOT}/FirebaseCrashlytics/upload-symbols\" -gsp \"${PROJECT_DIR}/Firebase/CanadaHome/GoogleService-Info.plist\" -p ios \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+			shellScript = "#\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n#\"${PODS_ROOT}/FirebaseCrashlytics/upload-symbols\" -gsp \"${PROJECT_DIR}/Firebase/CanadaHome/GoogleService-Info.plist\" -p ios \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32B3A166D874995188C7CE1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calgaryi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CDE0EA14F66F6462FB97FD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calgaryi/Pods-Calgaryi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstanceID/FirebaseInstanceID.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCrashlytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstanceID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYDrawerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calgaryi/Pods-Calgaryi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		98F923944E9A89B41FCC5AE6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -720,7 +793,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
 				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
@@ -730,6 +803,10 @@
 				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -745,13 +822,17 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYDrawerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CanadaHome/Pods-CanadaHome-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -764,11 +845,18 @@
 				2F1C55FC26CB21190046B204 /* NetworkManager.swift in Sources */,
 				2F1C55FD26CB21190046B204 /* AppDelegate.swift in Sources */,
 				2F1C55FE26CB21190046B204 /* DefaultViewController.swift in Sources */,
+				2FF53D5326DAE63B00AB9174 /* Models.swift in Sources */,
+				2FF53D4826DAE58C00AB9174 /* TabBarController.swift in Sources */,
+				2FF53D4D26DAE60600AB9174 /* Extension.swift in Sources */,
 				2F1C55FF26CB21190046B204 /* DetailsViewController.swift in Sources */,
 				2F1C560026CB21190046B204 /* Localizer.swift in Sources */,
 				2F1C560126CB21190046B204 /* NotificationManager.swift in Sources */,
 				2F1C560226CB21190046B204 /* Constants.swift in Sources */,
+				2FF53D8826DB09CC00AB9174 /* DrawerMenuViewController.swift in Sources */,
+				2FF53D8C26DB09CC00AB9174 /* DrawerTableViewCell.swift in Sources */,
 				2F1C560326CB21190046B204 /* LoadingViewController.swift in Sources */,
+				2FF53D5826DAE9D000AB9174 /* HomeViewController.swift in Sources */,
+				2FF53D4326DAE56000AB9174 /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -779,11 +867,18 @@
 				2F8FE3A925734FDD00889D91 /* NetworkManager.swift in Sources */,
 				2F95D4D6255C4050007CAD4E /* AppDelegate.swift in Sources */,
 				2F95D4D7255C4050007CAD4E /* DefaultViewController.swift in Sources */,
+				2FF53D5226DAE63B00AB9174 /* Models.swift in Sources */,
+				2FF53D4726DAE58C00AB9174 /* TabBarController.swift in Sources */,
+				2FF53D4C26DAE60600AB9174 /* Extension.swift in Sources */,
 				2F176BC626599219003A2545 /* DetailsViewController.swift in Sources */,
 				2F95D4D8255C4050007CAD4E /* Localizer.swift in Sources */,
 				2F7CC26D25782C3300FF3772 /* NotificationManager.swift in Sources */,
 				2F95D4DB255C4050007CAD4E /* Constants.swift in Sources */,
+				2FF53D8726DB09CC00AB9174 /* DrawerMenuViewController.swift in Sources */,
+				2FF53D8B26DB09CC00AB9174 /* DrawerTableViewCell.swift in Sources */,
 				2F95D4DC255C4050007CAD4E /* LoadingViewController.swift in Sources */,
+				2FF53D5726DAE9D000AB9174 /* HomeViewController.swift in Sources */,
+				2FF53D4226DAE56000AB9174 /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -920,7 +1015,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -928,7 +1024,7 @@
 		};
 		2F1C561526CB21190046B204 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1451DE4504361935E40A5D7 /* Pods-CanadaHome.debug.xcconfig */;
+			baseConfigurationReference = 7F6361D9DDE239C926ED6394 /* Pods-Calgaryi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = Calgary_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
@@ -943,7 +1039,10 @@
 				DEVELOPMENT_TEAM = 9ZUL79PJVG;
 				INFOPLIST_FILE = "CanadaHome copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingo.calgary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -958,7 +1057,7 @@
 		};
 		2F1C561626CB21190046B204 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 636D9FB0595CB374EF845171 /* Pods-CanadaHome.release.xcconfig */;
+			baseConfigurationReference = 07499915EC729AAFDC1CA861 /* Pods-Calgaryi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = Calgary_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
@@ -972,7 +1071,10 @@
 				DEVELOPMENT_TEAM = 9ZUL79PJVG;
 				INFOPLIST_FILE = "CanadaHome copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingo.calgary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -987,7 +1089,7 @@
 		};
 		2F95D4F4255C4050007CAD4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1451DE4504361935E40A5D7 /* Pods-CanadaHome.debug.xcconfig */;
+			baseConfigurationReference = 30DE6B07F660A23AF655855F /* Pods-CanadaHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = CanadaHome_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
@@ -1002,7 +1104,10 @@
 				DEVELOPMENT_TEAM = FK7GST2N29;
 				INFOPLIST_FILE = "$(SRCROOT)/Profile/CanadaHome_Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.canada.home;
 				PRODUCT_NAME = "Canada Home";
@@ -1017,7 +1122,7 @@
 		};
 		2F95D4F5255C4050007CAD4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 636D9FB0595CB374EF845171 /* Pods-CanadaHome.release.xcconfig */;
+			baseConfigurationReference = 332926D41A5501352879F94D /* Pods-CanadaHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = CanadaHome_AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
@@ -1031,7 +1136,10 @@
 				DEVELOPMENT_TEAM = FK7GST2N29;
 				INFOPLIST_FILE = "$(SRCROOT)/Profile/CanadaHome_Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.canada.home;
 				PRODUCT_NAME = "Canada Home";

@@ -108,18 +108,22 @@ class LoadingViewController: DefaultViewController , WKNavigationDelegate , WKUI
     
     
     func loadLink(_ link: String = ""){
-        var linkStr = link
-        if linkStr.isEmpty { linkStr = (Bundle.main.infoDictionary!["site_link"] as? String) ?? "" }
-        print("getData linkStr:",linkStr)
-        
-        if !appDelegate.openClosingAppLink.isEmpty {
-            linkStr = appDelegate.openClosingAppLink
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1){
+            self.performSegue(withIdentifier: "showHome", sender: self)
         }
         
-        if let link = URL(string: linkStr){
-            let request = URLRequest(url: link, cachePolicy: (NetworkReachabilityManager()!.isReachable ? .reloadRevalidatingCacheData : .returnCacheDataElseLoad))
-            webView.load(request)
-        }
+        //    var linkStr = link
+        //    if linkStr.isEmpty { linkStr = (Bundle.main.infoDictionary!["site_link"] as? String) ?? "" }
+        //    print("getData linkStr:",linkStr)
+        //
+        //    if !appDelegate.openClosingAppLink.isEmpty {
+        //        linkStr = appDelegate.openClosingAppLink
+        //    }
+        //
+        //    if let link = URL(string: linkStr){
+        //        let request = URLRequest(url: link, cachePolicy: (NetworkReachabilityManager()!.isReachable ? .reloadRevalidatingCacheData : .returnCacheDataElseLoad))
+        //        webView.load(request)
+        //    }
     }
     
     

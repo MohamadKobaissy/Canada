@@ -6,8 +6,10 @@ def mainpod
     
     pod 'Alamofire'
     pod 'Toast-Swift'
-    #   pod 'KRProgressHUD'
-    #   pod 'IQKeyboardManagerSwift'
+    pod 'KRProgressHUD'
+    pod 'IQKeyboardManagerSwift'
+    
+    pod 'KYDrawerController'
     
     #   pod 'Firebase/Analytics'
     pod 'Firebase/Crashlytics'
@@ -16,6 +18,11 @@ end
 
 
 target 'CanadaHome' do
+    use_frameworks!
+    mainpod
+end
+
+target 'Calgaryi' do
     use_frameworks!
     mainpod
 end
